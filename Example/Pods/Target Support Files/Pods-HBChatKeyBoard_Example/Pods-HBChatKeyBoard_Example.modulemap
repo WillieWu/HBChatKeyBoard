@@ -1,0 +1,6 @@
+framework module Pods_HBChatKeyBoard_Example {
+  umbrella header "Pods-HBChatKeyBoard_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

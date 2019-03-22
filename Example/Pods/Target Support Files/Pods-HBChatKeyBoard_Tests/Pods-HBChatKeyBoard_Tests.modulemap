@@ -1,0 +1,6 @@
+framework module Pods_HBChatKeyBoard_Tests {
+  umbrella header "Pods-HBChatKeyBoard_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

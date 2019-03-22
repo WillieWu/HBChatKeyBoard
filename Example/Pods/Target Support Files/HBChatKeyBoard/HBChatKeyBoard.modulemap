@@ -1,0 +1,6 @@
+framework module HBChatKeyBoard {
+  umbrella header "HBChatKeyBoard-umbrella.h"
+
+  export *
+  module * { export * }
+}
