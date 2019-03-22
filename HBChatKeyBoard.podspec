@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/WillieWu/HBChatKeyBoard'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hongbin.wu' => '601479318@qq.com' }
-  s.source           = { :git => 'git@github.com:WillieWu/HBChatKeyBoard.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/WillieWu/HBChatKeyBoard.git', :tag => s.version.to_s }
 
 
   s.ios.deployment_target = '8.0'
