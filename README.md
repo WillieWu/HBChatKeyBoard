@@ -5,24 +5,23 @@
 [![License](https://img.shields.io/cocoapods/l/HBChatKeyBoard.svg?style=flat)](https://cocoapods.org/pods/HBChatKeyBoard)
 [![Platform](https://img.shields.io/cocoapods/p/HBChatKeyBoard.svg?style=flat)](https://cocoapods.org/pods/HBChatKeyBoard)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-HBChatKeyBoard is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
+## 安装
 ```ruby
 pod 'HBChatKeyBoard'
 ```
+## 须知
+1. 录音文件是`.caf`格式，如需`.mp3`自行通过三方框架`lame.framework`转换
+2. 表情资源目前***仅支持本地！***
+3. 如需更改输入框样式，请自行组装即可。
 
-## Author
 
-601479318@qq.com, hongbin.wu@56qq.com
+## 功能
+1. iPhone X适配
+2. 语音，表情以及更多功能 
+3. 支持长按删除，输入框内容高度自适应
+4. 整体逻辑与微信一致
+
+
 
 ## License
 
