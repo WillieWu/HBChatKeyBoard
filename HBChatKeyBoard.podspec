@@ -30,9 +30,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.source_files = 'HBChatKeyBoard/Classes/**/*', 'HBChatKeyBoard/Classes/*'
   
-  s.resource_bundles = {
-    'HBChatKeyBoard' => ['HBChatKeyBoard/Assets/*.png', 'HBChatKeyBoard/Assets/**/*.png', 'HBChatKeyBoard/Assets/**/*.plist']
-  }
+  # s.resource_bundles = {
+  #   'HBChatKeyBoard' => ['HBChatKeyBoard/Assets/*.png', 'HBChatKeyBoard/Assets/**/*.png', 'HBChatKeyBoard/Assets/**/*.plist']
+  # }
   s.swift_version = '4.0'
   s.requires_arc = true
   s.frameworks = 'UIKit', 'AVFoundation'
