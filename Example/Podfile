@@ -3,7 +3,6 @@ use_frameworks!
 target 'HBChatKeyBoard_Example' do
     pod 'HBChatKeyBoard', :path => '../'
 #    pod 'HBChatKeyBoard'
-  # pod 'SnapKit', '~> 4.0.0'
   target 'HBChatKeyBoard_Tests' do
     inherit! :search_paths
 
