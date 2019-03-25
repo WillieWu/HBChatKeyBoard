@@ -7,213 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0268C8C614332289BBCCFE8C5275C8B1 /* 019.png in Resources */ = {isa = PBXBuildFile; fileRef = D525A7D5FBD1B4292A6BC764F47BD31A /* 019.png */; };
-		031C3E4EAE3A6E6C46F9E7D55B6530CA /* 131.png in Resources */ = {isa = PBXBuildFile; fileRef = E2AB9DEE6FBC75F7A131D670C11BE66A /* 131.png */; };
-		03488F818EB91136873BB7F339252EEB /* 015.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA09573E896F8333758274DC0345B3 /* 015.png */; };
-		03B203F3B4A1B8BAE1E28A6211CA7641 /* HBRecordTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98EC5E5DB1D07DC3491C6B5BD32A049 /* HBRecordTool.swift */; };
-		04833AC913E7FFBE5058BFEA00881567 /* 103.png in Resources */ = {isa = PBXBuildFile; fileRef = C4F900C5BDA2569093EA74CC2FE4043C /* 103.png */; };
-		048C241D2D1E43FF2D8AE061E1B85209 /* 065.png in Resources */ = {isa = PBXBuildFile; fileRef = 21CA56A65D00EFE32513D6C2198AE472 /* 065.png */; };
 		05A7B582A492ECF04A1A94246C3F5605 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C40AD8576AF89A8FD2F092B6B86516B /* Foundation.framework */; };
-		06E0F6B54F45E720C2065F9DADF9D22C /* 033.png in Resources */ = {isa = PBXBuildFile; fileRef = CFB77B0BF2BC2D1466735C75FEADD018 /* 033.png */; };
-		0822A0C063E1168A1C419D87A97AD60C /* 025.png in Resources */ = {isa = PBXBuildFile; fileRef = D45299516F652129B4293D831B213356 /* 025.png */; };
 		0A052A781A19D0B3C2DF0DE894F533AA /* Pods-HBChatKeyBoard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F1DE8442EE02B0B219A4D8C9A21B07 /* Pods-HBChatKeyBoard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0AEBAADB9C0E006673DDACFD90E50C29 /* 056.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD0B4FE1295B8CE7CEF78D28BB39190 /* 056.png */; };
-		0BD0D1A632D1565AA691DB02A15F66AB /* 110.png in Resources */ = {isa = PBXBuildFile; fileRef = 92B9EF81DCC8DF415891B11D3AA51699 /* 110.png */; };
-		0C703208ED7152547372996B21D5106D /* 084.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CC16991E704DC11AC4BC92D0D4A637 /* 084.png */; };
-		0D28CE7675739B90C5EF4557BC212CC9 /* 121.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ECAE5D0B86E0A3311177EA15B4C260E /* 121.png */; };
-		0D98B382E6FBB290FCE74C70CED74072 /* 129.png in Resources */ = {isa = PBXBuildFile; fileRef = B95CCF83300F79662F8C7F54BCD5EFEA /* 129.png */; };
-		0F5ADA9C05A68A3AB854DF1D5FEB8147 /* 105.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0928ED0094048799B24438B5AC132B /* 105.png */; };
 		0F91F5929EDA0A91EE6B6D61243F21BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EA199DD55D0734208F4F989A96EBD1 /* UIKit.framework */; };
-		0FB059FA7C933A39EF74558599258DF4 /* 035.png in Resources */ = {isa = PBXBuildFile; fileRef = 1582B9E34F685C24AD9547B382F68AFA /* 035.png */; };
-		1045956BE39889599719CF727162F843 /* bar_emoj.png in Resources */ = {isa = PBXBuildFile; fileRef = BED5BB785304A7112563BD505774D7A7 /* bar_emoj.png */; };
-		1474C38EF337129C07E45713266CCA20 /* 013.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6213CF29052E5CD559B6E2F8BAB53 /* 013.png */; };
-		176E398599EA9FE34E3C753F3DE3AE11 /* 002.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B7CE59F0C50C5AF1F28F2B8B06E8964 /* 002.png */; };
-		177093044E7CD100DFB742D2C052D151 /* 003.png in Resources */ = {isa = PBXBuildFile; fileRef = AD3601213EC2DCC5C811DABB87F3734A /* 003.png */; };
-		178AAB42B17B55668EBF41CA4C4EE494 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722DA8981A221F1B1D969AF6EAFFE3A /* ConstraintConstantTarget.swift */; };
-		18F2AD8A655C4F7DF684699C41AA00BB /* 130.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AE428AB95B3BA742DBFD81713A7226 /* 130.png */; };
-		197202E83F7F83A25224CA9A9C195949 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8D750C6ECEA53B56E9821E18BA23CD /* ConstraintMakerEditable.swift */; };
-		1C0C1E0DEE3CD0638EB9E11DF34E6A9F /* 102.png in Resources */ = {isa = PBXBuildFile; fileRef = 22CDC93712C3C6482CE5935E4B98DC03 /* 102.png */; };
-		1CA49DB8A26336A13674B9EC09C95868 /* 051.png in Resources */ = {isa = PBXBuildFile; fileRef = D57AB5D63869C18481F460DDCA1F7CF7 /* 051.png */; };
-		1D6FB3509404B4156FDCD624D50FD80D /* 020.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E0F6D881A1C74AB057879DBDA6AF7A1 /* 020.png */; };
-		1DA6C9CA907D58B375CE64B4742783D6 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E42C869689DEBE2DDD2ADC724D250A /* ConstraintLayoutGuideDSL.swift */; };
-		1DB3E08F8637102DA1948EAD1B3DB1F7 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501A23037A3C01626C6E7C0280CB79C1 /* UILayoutSupport+Extensions.swift */; };
-		2034D81A25CA10F7A5737B9F8ED96C8B /* 024.png in Resources */ = {isa = PBXBuildFile; fileRef = D5F017147B419FAC70ED49DD514AE93D /* 024.png */; };
-		20AF726146BFCEF74013323E6A30BE40 /* 114.png in Resources */ = {isa = PBXBuildFile; fileRef = 26DF9DCB3C7A04C8E027ACCA883CDAEE /* 114.png */; };
-		2366A1AC1C3E66E857C456EEE6950533 /* 041.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A3EA4D17FD72D0BEE2FCBA0406D202 /* 041.png */; };
-		2875908EDBCE9BB9BA5D02560144576D /* 094.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A4B997BF1BCEA458CC600A234093A68 /* 094.png */; };
-		2B5525FAC56CCAC151C5EC7A04127BD5 /* 078.png in Resources */ = {isa = PBXBuildFile; fileRef = F945F186F271E923D13271909AEA28EF /* 078.png */; };
-		2C27973045BA83A2DBC962EFBFB0EB8A /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A874171D01FF8DFB01AB97DC7CEE70E0 /* ConstraintAttributes.swift */; };
-		2D186AFFC71B84ABEC09A36BEDB21F64 /* 098.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBDA482D4AD7E70603DD91FCBCAFBC1 /* 098.png */; };
-		2E77C5645800A3E3AF512109CA6F0EF3 /* 045.png in Resources */ = {isa = PBXBuildFile; fileRef = 33CE80244802814E937DD6DB670DA69C /* 045.png */; };
-		2FD7E620E7A7456A9EC2F5EC7B7F0E1F /* HBChatKeyBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4925BEE1A5BA68C02308045D722D18E /* HBChatKeyBoardView.swift */; };
-		3200436D67171D696DBC6A64CBDAB818 /* 030.png in Resources */ = {isa = PBXBuildFile; fileRef = C8495F33A94D72C64E39AD02BCF50B51 /* 030.png */; };
-		32B553EE32FA5FB016FE20EFA7895785 /* 074.png in Resources */ = {isa = PBXBuildFile; fileRef = BA954DF42F47624F5AAF768B0EAEDD4B /* 074.png */; };
-		3374326555E766369CAC8D2D137EAC8F /* 034.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FD4CDA7F64970EFAFA26885F15E374B /* 034.png */; };
-		378AA3067C5CFC10C1B27326C0554D8F /* 097.png in Resources */ = {isa = PBXBuildFile; fileRef = 741E94AF8B88A85302CB1D157C12D082 /* 097.png */; };
-		3790EEEC94979956C9D3E54F539A7E57 /* 096.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F493882FDFDDFEC3C3A1971CDAE5E88 /* 096.png */; };
-		3AA22AB25E8CA8E775966DCC0B4CBDD7 /* 099.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B62C1343B772BFB001A4DA2C322450 /* 099.png */; };
-		3AE8D1FC9CBB7E817D2996180CAB20FE /* 070.png in Resources */ = {isa = PBXBuildFile; fileRef = E0D89820FF0053ED04C8ABB948B19B7B /* 070.png */; };
-		3D46C6276F2F1F006CAC413A6FEB28A7 /* 069.png in Resources */ = {isa = PBXBuildFile; fileRef = 1555C72BFD085D5DB3F1EAB5B1D4085D /* 069.png */; };
-		4164D714F200B24E13F493EE6EA683EB /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843306D8CC43590B5A1C687BB0737F5C /* ConstraintInsetTarget.swift */; };
-		4193E086FBC68B88616AEBDE5DCD595E /* 137.png in Resources */ = {isa = PBXBuildFile; fileRef = 75AF5A5068AEE54CC878E4A42669768E /* 137.png */; };
-		41D94BE5681F8D86883CE32F49EB5614 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE4AEF83D2BEB2F62694FD54269E07E /* ConstraintLayoutSupportDSL.swift */; };
-		43188099F2AF9B18A3A634F131A2BAEA /* 023.png in Resources */ = {isa = PBXBuildFile; fileRef = B25F91C0EFE5AEC3542BECFDC6398638 /* 023.png */; };
-		456D4E9B4B141438E633B30D3754214C /* 113.png in Resources */ = {isa = PBXBuildFile; fileRef = 734D13FEA3B1B7081DDD4EA86AC2C6FE /* 113.png */; };
-		47815ADF2BCD87FFDE5DD8A2F3BA852F /* 067.png in Resources */ = {isa = PBXBuildFile; fileRef = 7511FB83532D301870090A42D1EDF619 /* 067.png */; };
-		47B2C6CDE157BF3EF73C4666DD817127 /* 012.png in Resources */ = {isa = PBXBuildFile; fileRef = 579267C7BBA630DAF0ECF6C8948FB44B /* 012.png */; };
-		4BCDB3F1F62901F2236950A519119F03 /* 001.png in Resources */ = {isa = PBXBuildFile; fileRef = C98CE429B52B000CB626D3734ACB6631 /* 001.png */; };
-		4C2AF05532277DC44137F330324D107F /* 132.png in Resources */ = {isa = PBXBuildFile; fileRef = 21A8CD0C2FAA03E06D5943F1553363F1 /* 132.png */; };
-		4C63576DC61C3B3BF375AFA0D1E38CA0 /* 053.png in Resources */ = {isa = PBXBuildFile; fileRef = 042D3155B1D806B40F39CAFBD193CAD6 /* 053.png */; };
-		4CF864E6E1C0080D320E03B46167591A /* 063.png in Resources */ = {isa = PBXBuildFile; fileRef = 1505E7395676C42934AFB8283D896AF2 /* 063.png */; };
-		4DB40B38BBF463A9DB40A2A9FBC1A475 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E70F04360BFA1956839E8534EF62B32 /* ConstraintRelatableTarget.swift */; };
-		4E95B97E8ED6BC338E12BFA13C87AC44 /* bar_mirco.png in Resources */ = {isa = PBXBuildFile; fileRef = 572EFB0788515BF84ECC60C743395231 /* bar_mirco.png */; };
-		4F07D63FEE6659C1177C0C273F640661 /* bar_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 5131E192599AB794C4F4BBE7A586289B /* bar_add.png */; };
-		4F14B4B74EFAD8DB77E491BC012FEA72 /* menu_location.png in Resources */ = {isa = PBXBuildFile; fileRef = A41CB8F68AC84096BD46B283716D688A /* menu_location.png */; };
-		50EDADB173AA285B54C1F82AA17F9416 /* 014.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F020A92B499239EB208E7F875E947A /* 014.png */; };
-		510572BA8102AFFF7AAE8282E5597C5D /* HBEmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C45EF3B81F1E33CEC1309F4E0B2A80D /* HBEmojiView.swift */; };
-		5394BD5D6820272F046AA5C755D64655 /* 108.png in Resources */ = {isa = PBXBuildFile; fileRef = 544C3FE16422A6017A95878BABBCC6E5 /* 108.png */; };
-		53EECDC8D2DE77E9C2B0B7A44A75FDC1 /* 111.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E035475D61863F571E028E3BEB4AD0 /* 111.png */; };
-		54F46190C3A90D07F39AF90AE1EF0E99 /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = F92DE768BF3009A8AE3FC4CD4C30D404 /* 123.png */; };
-		55413C89C3B87DBD637641E379862CDE /* HBTextAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2A43A18C314985B2D17275ED32E8BE /* HBTextAttachment.swift */; };
-		558AC12F3B9F3C6DAA1D10ABA554D122 /* 092.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A78DD9E68C2676171DAA4092AB55E4 /* 092.png */; };
-		58E99966552D2723CAD7AE6E87680F2C /* 008.png in Resources */ = {isa = PBXBuildFile; fileRef = 125E78ABE8D857ADB58EC293857E0051 /* 008.png */; };
-		59D198039633040599983F4CC2000E34 /* 115.png in Resources */ = {isa = PBXBuildFile; fileRef = FADC97E1F9F7F11D5F23E8C9820C8CC7 /* 115.png */; };
-		5A13F0E1233194E52AEDFEDA208C5B13 /* 138.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC81344BFDB94EB926D6F6A53005D3C /* 138.png */; };
-		5BE13A7674095603CE5C4441AC3C345A /* 042.png in Resources */ = {isa = PBXBuildFile; fileRef = 483DE0BEA414B39642D25A27942AAD7A /* 042.png */; };
-		5F732E090E9BEBEECEAB1416B373FEC5 /* 055.png in Resources */ = {isa = PBXBuildFile; fileRef = 48091373373AF0D16067774C20BDE1FC /* 055.png */; };
-		602D857F7B31D186CBE1B5FB195BC253 /* 080.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DBFA72B97BB9645EEDFDF0D107625F /* 080.png */; };
-		60396BBDBB1B9A603E16F06A2C54DAE4 /* 052.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D70E60229CFC2992804A513F0D50028 /* 052.png */; };
-		61FCA08534AC1EC93CA7E0A160E54BC3 /* 021.png in Resources */ = {isa = PBXBuildFile; fileRef = 94DB6085C66D5EBA424747105F284123 /* 021.png */; };
-		627CBF0F299768F20165D799FB14EBC7 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADA64F2BF47B7C63FE330F74D7073CE /* ConstraintMakerRelatable.swift */; };
-		62CC749F575E456762C93FACCE54E4CF /* 062.png in Resources */ = {isa = PBXBuildFile; fileRef = 77AC26F654588A623D37B21AE0E9796F /* 062.png */; };
-		68B552445E7F6A5C43815D4C32A04F8F /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B25477C6E541C5812E1F76444EBFD1C /* ConstraintInsets.swift */; };
-		6A18C8BED7F0D79685E4B59CD50000AC /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = A670C9180CADA594831E0249A714EEB5 /* ConstraintPriority.swift */; };
-		6DBB80FD7647237F90092900BC96A9FB /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6944A236133AA02E95BD66E825F5E574 /* ConstraintMaker.swift */; };
-		6DF7B4938452BEB92343D871139AA146 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6863B6CACC9ADB88888FA85670196191 /* ConstraintOffsetTarget.swift */; };
-		6F2201C994AA735695EC900C136CD5E2 /* 048.png in Resources */ = {isa = PBXBuildFile; fileRef = CCBA95D948D616B3AB6B6178763D0BA7 /* 048.png */; };
-		6F5A764E0B5F3D47751D94C05C50A97B /* 004.png in Resources */ = {isa = PBXBuildFile; fileRef = 1995004F18F003E8DF582DD033E68B07 /* 004.png */; };
-		7123DC746A3D66771E6D60F1B5A9DC95 /* 032.png in Resources */ = {isa = PBXBuildFile; fileRef = 3354DEECEEDE2DD26B27C5839ADD84D8 /* 032.png */; };
-		715833BB920984D95DF992693296EF5A /* 054.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F49C77D786BEE52A7A98070A5CE88AB /* 054.png */; };
-		720EF1F69C6B0BEB33E56F969EACBD3F /* menu_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 76625BBCC8664142F1B028D019E9BB52 /* menu_image.png */; };
-		7303B4CAC531053B9888FB76DFA04D89 /* 079.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5AFFDE99907661DABAEFBBDA349FD /* 079.png */; };
-		7304309374FCA8E2B0F965397FFF1326 /* 128.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B37CA2C465B07A586F9601C95ED1C52 /* 128.png */; };
-		7386A6EF2E3E263FDBF911185E0F88B7 /* 101.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC372512CCC69E78C2CBBAE0D638021 /* 101.png */; };
+		178AAB42B17B55668EBF41CA4C4EE494 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215EB1EB7D34BAE4D61BE35FD37C7B8C /* ConstraintConstantTarget.swift */; };
+		197202E83F7F83A25224CA9A9C195949 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D0C15939397708F7A906796D4C407 /* ConstraintMakerEditable.swift */; };
+		1DA6C9CA907D58B375CE64B4742783D6 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218DECB55AE295F271C9D4E2198054FA /* ConstraintLayoutGuideDSL.swift */; };
+		1DB3E08F8637102DA1948EAD1B3DB1F7 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C0BEE93AF56739E9FF303A7ECA5D04 /* UILayoutSupport+Extensions.swift */; };
+		2C27973045BA83A2DBC962EFBFB0EB8A /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15388F9916461AFADC0B83C0F3896286 /* ConstraintAttributes.swift */; };
+		2FD46F876FAC2E8BCEDC1F882090EBA5 /* HBChatKeyBoard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A23A622F5C4584CA8572230255801A /* HBChatKeyBoard-dummy.m */; };
+		4164D714F200B24E13F493EE6EA683EB /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3430CAA9F5F4252B6DD4819000AF4AF3 /* ConstraintInsetTarget.swift */; };
+		41D94BE5681F8D86883CE32F49EB5614 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66AA66BCD7583FB9A6324FB89D6C530 /* ConstraintLayoutSupportDSL.swift */; };
+		42617EA89E0B7D129040FFBB1167DE94 /* HBTextAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F131968B6B91328A92BB9A93DA611 /* HBTextAttachment.swift */; };
+		4DB40B38BBF463A9DB40A2A9FBC1A475 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECFB28DDFA00A26C7DEFA47C0B957D /* ConstraintRelatableTarget.swift */; };
+		55593555C0B5596D9755F6405B7B2B76 /* HBMoreMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27296A8AF85BD96DAA199436E85BB6BA /* HBMoreMenuView.swift */; };
+		627CBF0F299768F20165D799FB14EBC7 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ABC1FF8C8F648909E0AC7911172933 /* ConstraintMakerRelatable.swift */; };
+		68B552445E7F6A5C43815D4C32A04F8F /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425101B552E11290A01971FB977C9D94 /* ConstraintInsets.swift */; };
+		6A18C8BED7F0D79685E4B59CD50000AC /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F88505958E8DD77D99588F0471563 /* ConstraintPriority.swift */; };
+		6DBB80FD7647237F90092900BC96A9FB /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8959EFF4ED2C473620C5934AF38D555E /* ConstraintMaker.swift */; };
+		6DF7B4938452BEB92343D871139AA146 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D210A13529B69371A362230828E459 /* ConstraintOffsetTarget.swift */; };
 		740250F95ECC662589442169C5ACFCC3 /* HBChatKeyBoard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AF05F6557035D58CE01E49499646B0FD /* HBChatKeyBoard.bundle */; };
-		7599F55705907A7FECA2639ACEDE0850 /* 006.png in Resources */ = {isa = PBXBuildFile; fileRef = 3428A384233FF531FE80B0675DCE95C7 /* 006.png */; };
-		75E17E609B9B00360AAC64885BC13070 /* 046.png in Resources */ = {isa = PBXBuildFile; fileRef = DD15FADFD241CC1A5B6A5E81B2D03906 /* 046.png */; };
-		77B37AC20D928E285A44C638579B63A3 /* 093.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AB9176573080242A3CDE52C9621DE42 /* 093.png */; };
-		77E626EC4B4E376D9772566345BC3A98 /* 016.png in Resources */ = {isa = PBXBuildFile; fileRef = D27AF1C7DD9E64251CCCD7D25814ED4B /* 016.png */; };
-		78951AF12985395FF083C3FD5700DA56 /* 037.png in Resources */ = {isa = PBXBuildFile; fileRef = 303ADBD89E19D3F33CFD83B0ED65021E /* 037.png */; };
-		78BC520A8B3BC1349221B20BA8BB5661 /* 135.png in Resources */ = {isa = PBXBuildFile; fileRef = 2595F23A1D2DB52EA835F4D9813891E9 /* 135.png */; };
-		7ADDBA1C0668817A955511630EE132F7 /* 043.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD69594BA5FD157D529DEEB597A129D /* 043.png */; };
-		7B3CA7883834B927CE1EC3D558357C7D /* 119.png in Resources */ = {isa = PBXBuildFile; fileRef = 07340CC086B0A92EB46A1BB57118FE07 /* 119.png */; };
-		7B40A51ABC0206E6F3A069ECD5D26F94 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A9563FC486C51054DFEA44D7747C2 /* Debugging.swift */; };
-		7CC1C3CED776290B040D9CA6A6CC52E8 /* 086.png in Resources */ = {isa = PBXBuildFile; fileRef = 8811CB46A940B0706B1F4DB0F6B9B0F6 /* 086.png */; };
-		7E5378D8AAA47A0B7C035D9B978C1129 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA9A2DAA3F37BDB7F0E99483F00CAF7 /* LayoutConstraintItem.swift */; };
-		7EF2DCEA96477F0DFAFBDC397AB1DAF1 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7F972084D674F51269AD9AF9625F1B /* ConstraintViewDSL.swift */; };
-		7F06C6EB6C4918BABCE1A9B4C06F4121 /* 073.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D70AC19090C088B5054033CE2CE8735 /* 073.png */; };
-		7F235A6281874525AF2A59B3E74E5722 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B8252259199DF0462F7C1397D025C4 /* ConstraintView+Extensions.swift */; };
-		808FF4B272BFBD42F91C2A5514E104C9 /* 038.png in Resources */ = {isa = PBXBuildFile; fileRef = 413FC840B90A6225C295723275DB58BC /* 038.png */; };
-		811FA9338319686754B2C79CC7BD9022 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E77A865B1C32F937526CE200C724F6 /* ConstraintView.swift */; };
-		838DBBD47D601AEB88EF975020742A06 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A054DB8451F3B3EA437DC4D41FD35E0F /* SnapKit-dummy.m */; };
-		87904E977675F2DF7593074A2536FACD /* 047.png in Resources */ = {isa = PBXBuildFile; fileRef = B608BCF73E005D4B483344A10CACB235 /* 047.png */; };
-		879E397AABAB70B596B15D6D07A24932 /* 010.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D31DA2DC5CE4EA1F168B1733432F4DD /* 010.png */; };
-		87C5BD3CAA4D2237B4A3E52D7FDD2F45 /* 091.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A3A2B591B196121A510029B9747E48 /* 091.png */; };
-		8A098A349B6033E2389E5877DFCE23C1 /* menu_gift.png in Resources */ = {isa = PBXBuildFile; fileRef = 40BE04A6BE28FCF3EE76B85AAFEB6443 /* menu_gift.png */; };
-		8ACC7F3FF8D525172EB6F93AD68925AE /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = C614531295B0B043E6D3FAA17C6C14E8 /* ConstraintDescription.swift */; };
-		8FCAF3A52FDFF3CE9833CEA1DA26F20D /* 076.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DAAA28EF4AE812DDEE962F0646B7E47 /* 076.png */; };
-		8FCC1089F12084569C4B4316B13AC1F9 /* 064.png in Resources */ = {isa = PBXBuildFile; fileRef = E61C2A6AD9E8951C4421453D85AB7DCB /* 064.png */; };
-		90BBC24DBB5AD726B52634B1000ED5C1 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE9B07955CBAF4F7D1D38BFDD0B07F4 /* ConstraintConfig.swift */; };
-		919870AD2B7C11E00A2F51A2C182EE28 /* 066.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A095D700658F7239394E7059A5685FF /* 066.png */; };
-		919913EB3DAC3DF9FFE209A16C918AD6 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8B09802AF497A7B8A24AF8976D6FC5 /* ConstraintMakerFinalizable.swift */; };
-		92618751E5151E81359884B9B89FD985 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6873E4EF124B79DF8924B6F2EFCC3BCD /* ConstraintMultiplierTarget.swift */; };
-		94749C87550F0712067FF45701216FCB /* 087.png in Resources */ = {isa = PBXBuildFile; fileRef = 87F1B551FF522CF2476D7ADFAAA9EA18 /* 087.png */; };
-		9905B443AFAE6B032EF87F73D1E036E8 /* 058.png in Resources */ = {isa = PBXBuildFile; fileRef = FFCB961918AE68D13513AFDBBBFD114E /* 058.png */; };
-		991F9B276309150BF9C8CB19283024B8 /* HBChatTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA232B7785C7DCD7982E3BA384260E7 /* HBChatTextView.swift */; };
-		9A64A1A694CFB051560AAE6F47A16602 /* 083.png in Resources */ = {isa = PBXBuildFile; fileRef = BE3A998AF08C49C3D69ABE93DD32C318 /* 083.png */; };
-		9AA0676D3633598069193BDB2E061ECC /* 061.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E8A9FC1C1C42514CB7EEAB93647635 /* 061.png */; };
-		9AB8FC8DBD42437883FFD6AF4582C1AA /* 134.png in Resources */ = {isa = PBXBuildFile; fileRef = D7CB0D94919C23D022D992BDC6E8FE01 /* 134.png */; };
-		9C39A66B066274BCD74DC4CB0ABF023E /* 136.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FB6FB2C8C437875357C5BB79CF5C5B /* 136.png */; };
-		9DAD61CA1445D0371E3A031518253694 /* 071.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F388BFCCE8CB2461616209730C56EA /* 071.png */; };
-		9E9E214AD31C0AD013C159C842B216A6 /* 029.png in Resources */ = {isa = PBXBuildFile; fileRef = 61C87BCA22F39E5B0388051B28EC0A41 /* 029.png */; };
-		9EAAE91F1AFA9BF6019B05EF1418E5AE /* HBEmojiFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23103EFD9135B56BBDE9DFF05D1579FF /* HBEmojiFile.plist */; };
-		9EE283BD98B5D07D91BA4D4C0B83C9D1 /* 081.png in Resources */ = {isa = PBXBuildFile; fileRef = 36A065150D09EBC1BDDE7954FE5CD4DC /* 081.png */; };
-		A0BC4F271945E845CF1DD6E39848E04F /* 085.png in Resources */ = {isa = PBXBuildFile; fileRef = 58DA099870CBFC8AC18FDED5084C6246 /* 085.png */; };
-		A2978CBD80CAB5C698FC1E8722659A51 /* 109.png in Resources */ = {isa = PBXBuildFile; fileRef = C9DD81148F6B710BB29BBD48B8D4D992 /* 109.png */; };
+		7A7F909D80EBD78319565D609C17CDB0 /* HBRecordTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A85965DD9647E61984DC74CE37FF7FF /* HBRecordTool.swift */; };
+		7B40A51ABC0206E6F3A069ECD5D26F94 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F94C7C263067A0535BA4C068F5BA96 /* Debugging.swift */; };
+		7E5378D8AAA47A0B7C035D9B978C1129 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6693C457C9655D1E49B7B8027767CF /* LayoutConstraintItem.swift */; };
+		7EF2DCEA96477F0DFAFBDC397AB1DAF1 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718501E66EB9C33CE1F87D62CC2CC57D /* ConstraintViewDSL.swift */; };
+		7F235A6281874525AF2A59B3E74E5722 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1F6250B9560C48D2982462F5197C7 /* ConstraintView+Extensions.swift */; };
+		811FA9338319686754B2C79CC7BD9022 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987D9011F616F5690D09CFC59CAC79EC /* ConstraintView.swift */; };
+		81E3F6000BDF59BB4740E976CEA16669 /* HBChatTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C9287C79763143BE714819158404F /* HBChatTextView.swift */; };
+		838DBBD47D601AEB88EF975020742A06 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A16CBDC9E8348101FB596E1B0D64B3DD /* SnapKit-dummy.m */; };
+		8ACC7F3FF8D525172EB6F93AD68925AE /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671A026067AF279C0A07DAC5E3D5F56 /* ConstraintDescription.swift */; };
+		90BBC24DBB5AD726B52634B1000ED5C1 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53136A44C3AF8EA930C8F0C67B926F0 /* ConstraintConfig.swift */; };
+		919913EB3DAC3DF9FFE209A16C918AD6 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5926F04B724FCFC18EB3D230A13C07 /* ConstraintMakerFinalizable.swift */; };
+		92618751E5151E81359884B9B89FD985 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC6236D47CB2BA34B4F1F344E985DF2 /* ConstraintMultiplierTarget.swift */; };
 		A3C1BBDD118D1BEDB72EB86E1AEF1912 /* Pods-HBChatKeyBoard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B665BF9E7732C5FA8BB36B4F04198B /* Pods-HBChatKeyBoard_Example-dummy.m */; };
-		A488BC4EBCF098E5AA20B94068A1AB15 /* HBChatKeyBoard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E9C726E9860BA29DDD6E8D56A316E42 /* HBChatKeyBoard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4D60C4FA7A95FBB7D25C42B8A0D8B22 /* 106.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B977588C513A181AEEE3A38202019E2 /* 106.png */; };
-		A6DF8F09D70DEC9263BB203AF59E21FF /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = 10AC88EC969B9D5239211C7B4324CBB8 /* 120.png */; };
-		AA66F099B8BB5CA50DA42D7D3A38D642 /* bar_keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E7EBB008312CC1CFB1850EC1B4D6EC /* bar_keyboard.png */; };
-		AA68F07E6755FCDF254755D190D12DEC /* 126.png in Resources */ = {isa = PBXBuildFile; fileRef = ADAA4B38F9E444CED85433B0908D6EEE /* 126.png */; };
-		AD123AB3EC97E44F5218EEDFFB6DC75F /* menu_video.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CBFE762B34041DD6D50D7AFB8556D52 /* menu_video.png */; };
-		AE4799440F2F122BAC8B5D659752E0A1 /* 050.png in Resources */ = {isa = PBXBuildFile; fileRef = 915EE0EBA2F8984C61DD421481D0353E /* 050.png */; };
-		AF3BE713C4D7D6543A76FF87A6A22FF2 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D764327CAD50A4BBCB6C035E2DC2F4 /* ConstraintLayoutGuide.swift */; };
-		AF65D8717BD8E325D3AE8B97F666A35F /* 027.png in Resources */ = {isa = PBXBuildFile; fileRef = 3026C43F8664DA2D00E8D24C59E25D4D /* 027.png */; };
-		AF75BA15BB0F23CB479E8A645461F4C2 /* 036.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B91AD01FB1A726CCF87D06BCE08F3D /* 036.png */; };
-		B0212336A276EC867F33E0E4BAB29D57 /* HBMoreMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AECCFC2E97AC77B90A7C21DA4B1B27 /* HBMoreMenuView.swift */; };
-		B0E17D5D6167BE93416627394BE28706 /* 031.png in Resources */ = {isa = PBXBuildFile; fileRef = C7862A72A429B2F5624781382EACD2D6 /* 031.png */; };
-		B0E8F726583722281227D386E68D70A6 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E6944B9A49AA27E773E8B2F2416C2A /* LayoutConstraint.swift */; };
-		B3B3CFB4849B16D217311AF97E2B67FF /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B3E14354D51EAB3347811640DD79D7 /* Typealiases.swift */; };
-		B58160A75D2C474D3BAA91E04D2F281B /* 133.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1981D07703BA6FE215E93D8CB53031 /* 133.png */; };
-		B64322E35B308EF3E1216D15D6D63DAF /* 007.png in Resources */ = {isa = PBXBuildFile; fileRef = B1C061F19CFEA8F1CD09ADF2A8CC153E /* 007.png */; };
-		B6AF1E4649725D2B9130130F94FBE691 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085DCDE6EC68D3C54C6492D86AD123AB /* ConstraintMakerExtendable.swift */; };
+		A488BC4EBCF098E5AA20B94068A1AB15 /* HBChatKeyBoard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCACF2E7E656D8DBB31398B045326F8 /* HBChatKeyBoard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF3BE713C4D7D6543A76FF87A6A22FF2 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734D85E58F3C5B8F418EE9B0A943DFB6 /* ConstraintLayoutGuide.swift */; };
+		B0E8F726583722281227D386E68D70A6 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDC6561D7E59F96048734F4A9C87399 /* LayoutConstraint.swift */; };
+		B3B3CFB4849B16D217311AF97E2B67FF /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69940BF178423537E010EA0A592D164D /* Typealiases.swift */; };
+		B6AF1E4649725D2B9130130F94FBE691 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC281399063A5E62CECFBBD097D01D2 /* ConstraintMakerExtendable.swift */; };
 		BC95184159E16331F973A01AA157409F /* Pods-HBChatKeyBoard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC70AFCAB4AFA4E264DF7F91D721279 /* Pods-HBChatKeyBoard_Tests-dummy.m */; };
-		BFCD127AFEDCB7E3CDC9048D2032A719 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E70EDC15E1F81DFC7ED26F1A84830 /* ConstraintLayoutGuide+Extensions.swift */; };
-		C109C819258FE2AE82971436A082BD62 /* 107.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D459D87965890A3100B2182839F138 /* 107.png */; };
-		C3C14246B031B8BF09CF66A6EF440B9F /* 127.png in Resources */ = {isa = PBXBuildFile; fileRef = E9DCE1FC7FBCB0ECF8686878227294AC /* 127.png */; };
-		C88D2FD400B5E94AABAF5FC8A174510F /* 077.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C18E9447654DDC11A031BDEE337E397 /* 077.png */; };
-		C8D825D7813CF39C47A9DF7B63749D1B /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A1B3636D5BC79DDF9F36995F1493DB /* ConstraintItem.swift */; };
-		C9FF033B337DA292CC21CCF3DF59F21B /* HBChatKeyBoard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 300A79CC3475274C87497561D5F42DB0 /* HBChatKeyBoard-dummy.m */; };
-		CA3733578BE89936903E04D71377F5D0 /* 049.png in Resources */ = {isa = PBXBuildFile; fileRef = F3201BDD2BD20EE8FD92206C272ACB33 /* 049.png */; };
-		CA578824D809E4ABB231D722E0D82FD7 /* 005.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BAFE3A29B2487491D761879B66B1B21 /* 005.png */; };
-		CB336FF941EBF1051CDAB663D621A219 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3363D3A87A01D5D06150E81C055C5119 /* ConstraintRelation.swift */; };
-		CC14E5C0C7990D5C3BDC23DB3F293C50 /* 117.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6063BB09F2C3AC9B4C86DA644643E2 /* 117.png */; };
-		CC9242DFA107F387324734F8CA2065DC /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42387577FFCCC6653D5CF05B1F6DB0C /* ConstraintPriorityTarget.swift */; };
-		CCA3F29679D83E8E58DEBEA5B3D53022 /* 009.png in Resources */ = {isa = PBXBuildFile; fileRef = A71BE765B3246A8A8165EEC196399C33 /* 009.png */; };
-		CCBE3482330CC0A351C95EEEF4682103 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ADB2D5C071FF002ACC3D627A29A680 /* ConstraintMakerPriortizable.swift */; };
-		CD48BF62819E3ED26EF52569B2254CFF /* 095.png in Resources */ = {isa = PBXBuildFile; fileRef = D45431512648FEACB6E3C68D83E428BD /* 095.png */; };
-		CD7F79FA54194BD8A3AED4C0C34A6B4F /* 090.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E64165208D12D7877B5692362BDF957 /* 090.png */; };
-		D00103BA815375840626833473CE9EC3 /* 124.png in Resources */ = {isa = PBXBuildFile; fileRef = A7CBA0800D79DCDD1806F5A029586988 /* 124.png */; };
-		D0431BB125A3561784B865044D1B9AD6 /* 118.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF5DECF51AC0904399BFE2CCB56385B /* 118.png */; };
-		D1CCE2459E0E744CBFB10CA6ECB9AF4E /* 057.png in Resources */ = {isa = PBXBuildFile; fileRef = 61BBE6DF786A74B46194270A61FC2218 /* 057.png */; };
-		D350697C831D22192203EA240A4676F3 /* 072.png in Resources */ = {isa = PBXBuildFile; fileRef = 737FA5627D685541FF51C6BF2B3F6BF7 /* 072.png */; };
-		D3ED90730ACACAA07A7B7E1ECA5098F8 /* 011.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C073D06846A98A999D23C83E3857115 /* 011.png */; };
-		D49993AEC4B50FD078686F4DE2E0AAED /* 040.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9FDA7331EB43E194FF715461B8D98 /* 040.png */; };
-		D5F52C3D12BDBCECE494F69066BE9DA6 /* 060.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB9EECB85A047C0A256702599B6BF2A /* 060.png */; };
-		D9570CC32C94CBFBE9E3FE70C1234F92 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = B62C6A7BDC304EF5DE4B3F108CE89F58 /* delete.png */; };
-		D997EE382DA94DB29820884A88FB9605 /* 112.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DF3CBF99F29FCEC58B23B23942653 /* 112.png */; };
+		BFCD127AFEDCB7E3CDC9048D2032A719 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2D75BA44BD7EC2F724E0EDB30F325 /* ConstraintLayoutGuide+Extensions.swift */; };
+		C8D825D7813CF39C47A9DF7B63749D1B /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A7AEA6044B2018807C2D766ED9025D /* ConstraintItem.swift */; };
+		CAA6BB5A1F68E56EC0178A294515ABFA /* HBEmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51260F311E2CD7F11A05031F2DB74EC /* HBEmojiView.swift */; };
+		CB336FF941EBF1051CDAB663D621A219 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FF6A5B7704FACC7F9307D312A7EF61 /* ConstraintRelation.swift */; };
+		CC9242DFA107F387324734F8CA2065DC /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A754244D675324E814E05CF1E281645 /* ConstraintPriorityTarget.swift */; };
+		CCBE3482330CC0A351C95EEEF4682103 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EC8E050E3BE6E46D7C010378F29A56 /* ConstraintMakerPriortizable.swift */; };
 		D9A5FF7E8A6B7EC12925ECF52CC529C1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F08E46988D2E6E1BF1B3614870424F5 /* AVFoundation.framework */; };
-		DBACF6E290C7635E19B47C9B86E9623F /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E390E092110853207F7D4878D41B00B /* Constraint.swift */; };
-		DC0D6BF3EEF4B11A7E86C5AC0F674AD1 /* 028.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D86C9A9F383BDE5E18DB7A748049AC0 /* 028.png */; };
+		DBACF6E290C7635E19B47C9B86E9623F /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D235C0E8456DA03B8724F17EA46D9F /* Constraint.swift */; };
 		DC1428E58B20DDC9C6E3F0E13ED851B5 /* Pods-HBChatKeyBoard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3D305B039057889A2441512738FC44C /* Pods-HBChatKeyBoard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC1B858D0E03B35D52450B4EAA98CD88 /* 088.png in Resources */ = {isa = PBXBuildFile; fileRef = 4595374468FCD4A829B10697CF7F3FF2 /* 088.png */; };
-		DCE048C2310E0D6B415AA3AF6A6C6801 /* 044.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C6071FFF01A472272D16B31AFFE23A /* 044.png */; };
-		DFEC31E50202314FC9DFE439AE94D74F /* menu_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = D2EB8EB2554DC5EB2B764EC3B94BD93E /* menu_camera.png */; };
-		E2563B47AAEE0274FEA37640D15F9F52 /* 075.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A130F213F33F68FCDEF24726013EDA3 /* 075.png */; };
 		E318831C25CAF67F83FBBA12F03D95BE /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87397B857ABE0D667740D891AD58C23E /* SnapKit.framework */; };
-		E5105D60F403BB74F93375388B56563C /* 022.png in Resources */ = {isa = PBXBuildFile; fileRef = 638EEACB783D5E90F8EA28266086992B /* 022.png */; };
 		E75A8A453BCF8BD405A45C25C3940019 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C40AD8576AF89A8FD2F092B6B86516B /* Foundation.framework */; };
-		E89D3197C56DD7D3253EA8CE1928D2AC /* 068.png in Resources */ = {isa = PBXBuildFile; fileRef = 9035FE349231FB321B50C3F4BC4714BE /* 068.png */; };
-		E8B80336BB00391AC96A0D887996FB8A /* 089.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F9AE07B67CBEC7EFB03C6C151CA3A66 /* 089.png */; };
-		E8F2BE2C8FFDC93A30EFFE89E43CD3F6 /* 039.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A2693C0471BD712125B8A9296A6BC20 /* 039.png */; };
 		E98406E395CBC97F0091B5FBEBA4A276 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C40AD8576AF89A8FD2F092B6B86516B /* Foundation.framework */; };
-		ECCF9BE03D926B25D62FD3432EADB6D9 /* 104.png in Resources */ = {isa = PBXBuildFile; fileRef = 273E7273DAC1DE051D073A40855DFF0D /* 104.png */; };
-		ED3D6E4DCF632819DB0C4CD57DDDE888 /* 026.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F0D45E9E781AC3D12E8500F6972CEED /* 026.png */; };
-		EDE677AD47E78B4E050BE3DE765DB8D4 /* 018.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C96B136777E9A0B0EFE7FFCF1EFF7C4 /* 018.png */; };
-		EDEDBF330BD5E480EEEDA29FC1CEA145 /* 100.png in Resources */ = {isa = PBXBuildFile; fileRef = CBA554423926A4C5EF7820C07EEBE338 /* 100.png */; };
-		F27B5DB570A7A40FCC6BC773D8DE9802 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F111CEDC41B97ADDBB93B40FD183ED1 /* ConstraintLayoutSupport.swift */; };
-		F302CA5ED911C9ABD19F4C79FF92EB01 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8FA7DE9C33CBB7183442828331BB877 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F64546AD20DAA759AB11EC92A865DFF2 /* 139.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4FF38C1DCB9060123B787F7EDC99D1 /* 139.png */; };
-		F6903206362C5778145BC5A64BB142C7 /* 122.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E066C30B919343DE271F0C67873D576 /* 122.png */; };
+		F27B5DB570A7A40FCC6BC773D8DE9802 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E6A0E89915574C7D9DBC896D4A76A7 /* ConstraintLayoutSupport.swift */; };
+		F302CA5ED911C9ABD19F4C79FF92EB01 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D310AAB8E50557845B5D7CF84C02F45 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA7F0F534FBC2413DC324854ACDD8C21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C40AD8576AF89A8FD2F092B6B86516B /* Foundation.framework */; };
-		FB233174B6465753EFB6971451D53CBC /* 116.png in Resources */ = {isa = PBXBuildFile; fileRef = 49EE45963A457797A9D3E88D2954D36B /* 116.png */; };
-		FB967A605CFB439D0683BA223215CE1E /* 059.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A6D08176A8CE56FC27DB6C8EC0794AA /* 059.png */; };
-		FC6EA39D90A2F13DC95535831B86FF45 /* 125.png in Resources */ = {isa = PBXBuildFile; fileRef = 390AE6937B4B4B25C07229176014F087 /* 125.png */; };
-		FCECBAE6B18BC263D595E17237C73048 /* 140.png in Resources */ = {isa = PBXBuildFile; fileRef = 1128067DAB9FE09957B460DFD2D1FD63 /* 140.png */; };
-		FEE1BE6C51587A6AAB4C4AAB5A76485A /* 082.png in Resources */ = {isa = PBXBuildFile; fileRef = D6975CCC74CB9740964F418FC2B4B7C8 /* 082.png */; };
-		FF71FA466ACD19390073CBC9F285B4D6 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52769E088E9BAD3E11D192DA0FCC8E24 /* ConstraintDSL.swift */; };
-		FFF17929040725E16839F7B3CED73619 /* 017.png in Resources */ = {isa = PBXBuildFile; fileRef = FF46D863D9661AC14EFB2B025A9B6A1F /* 017.png */; };
+		FE7CD074810A79E55EDB5907C890FFA4 /* HBChatKeyBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD039FBA819454A39CAF5DB6BF3C8D31 /* HBChatKeyBoardView.swift */; };
+		FF71FA466ACD19390073CBC9F285B4D6 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DC359A7B04F408D0E8233AE8D87CCB /* ConstraintDSL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -255,237 +104,89 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03D459D87965890A3100B2182839F138 /* 107.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 107.png; path = "HBChatKeyBoard/Assets/表情/107.png"; sourceTree = "<group>"; };
-		042D3155B1D806B40F39CAFBD193CAD6 /* 053.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 053.png; path = "HBChatKeyBoard/Assets/表情/053.png"; sourceTree = "<group>"; };
-		07340CC086B0A92EB46A1BB57118FE07 /* 119.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 119.png; path = "HBChatKeyBoard/Assets/表情/119.png"; sourceTree = "<group>"; };
+		01BB24028A3C264BE91C4EE67E757891 /* ResourceBundle-HBChatKeyBoard-HBChatKeyBoard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HBChatKeyBoard-HBChatKeyBoard-Info.plist"; sourceTree = "<group>"; };
+		02E6A0E89915574C7D9DBC896D4A76A7 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
 		07C4697F54FEF92AFC985138C940DB6C /* Pods-HBChatKeyBoard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBChatKeyBoard_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		085DCDE6EC68D3C54C6492D86AD123AB /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
-		08F69967E5665D7FD1433F0F0DD3846A /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
 		09BB15C97112130BA61CE1073E930711 /* HBChatKeyBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HBChatKeyBoard.framework; path = HBChatKeyBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A130F213F33F68FCDEF24726013EDA3 /* 075.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 075.png; path = "HBChatKeyBoard/Assets/表情/075.png"; sourceTree = "<group>"; };
-		0A6DF3CBF99F29FCEC58B23B23942653 /* 112.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 112.png; path = "HBChatKeyBoard/Assets/表情/112.png"; sourceTree = "<group>"; };
+		0A754244D675324E814E05CF1E281645 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
 		0AC70AFCAB4AFA4E264DF7F91D721279 /* Pods-HBChatKeyBoard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBChatKeyBoard_Tests-dummy.m"; sourceTree = "<group>"; };
-		0C2A43A18C314985B2D17275ED32E8BE /* HBTextAttachment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HBTextAttachment.swift; path = HBChatKeyBoard/Classes/HBEmojiView/HBTextAttachment.swift; sourceTree = "<group>"; };
-		0D70AC19090C088B5054033CE2CE8735 /* 073.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 073.png; path = "HBChatKeyBoard/Assets/表情/073.png"; sourceTree = "<group>"; };
 		0F08E46988D2E6E1BF1B3614870424F5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		0FD4CDA7F64970EFAFA26885F15E374B /* 034.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 034.png; path = "HBChatKeyBoard/Assets/表情/034.png"; sourceTree = "<group>"; };
-		10AC88EC969B9D5239211C7B4324CBB8 /* 120.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 120.png; path = "HBChatKeyBoard/Assets/表情/120.png"; sourceTree = "<group>"; };
-		1128067DAB9FE09957B460DFD2D1FD63 /* 140.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 140.png; path = "HBChatKeyBoard/Assets/表情/140.png"; sourceTree = "<group>"; };
-		125E78ABE8D857ADB58EC293857E0051 /* 008.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 008.png; path = "HBChatKeyBoard/Assets/表情/008.png"; sourceTree = "<group>"; };
-		12F388BFCCE8CB2461616209730C56EA /* 071.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 071.png; path = "HBChatKeyBoard/Assets/表情/071.png"; sourceTree = "<group>"; };
-		13B8252259199DF0462F7C1397D025C4 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
-		1505E7395676C42934AFB8283D896AF2 /* 063.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 063.png; path = "HBChatKeyBoard/Assets/表情/063.png"; sourceTree = "<group>"; };
-		1555C72BFD085D5DB3F1EAB5B1D4085D /* 069.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 069.png; path = "HBChatKeyBoard/Assets/表情/069.png"; sourceTree = "<group>"; };
-		1582B9E34F685C24AD9547B382F68AFA /* 035.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 035.png; path = "HBChatKeyBoard/Assets/表情/035.png"; sourceTree = "<group>"; };
-		17FB6FB2C8C437875357C5BB79CF5C5B /* 136.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 136.png; path = "HBChatKeyBoard/Assets/表情/136.png"; sourceTree = "<group>"; };
+		104337EC442E4919BFDACFCF458FF7BB /* HBChatKeyBoard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBChatKeyBoard-prefix.pch"; sourceTree = "<group>"; };
+		14ABC1FF8C8F648909E0AC7911172933 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		15388F9916461AFADC0B83C0F3896286 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		16DC359A7B04F408D0E8233AE8D87CCB /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
 		189B5DAB970FE069F56C8629E54F7B25 /* Pods-HBChatKeyBoard_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBChatKeyBoard_Example-Info.plist"; sourceTree = "<group>"; };
-		18F020A92B499239EB208E7F875E947A /* 014.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 014.png; path = "HBChatKeyBoard/Assets/表情/014.png"; sourceTree = "<group>"; };
-		1995004F18F003E8DF582DD033E68B07 /* 004.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 004.png; path = "HBChatKeyBoard/Assets/表情/004.png"; sourceTree = "<group>"; };
-		1A6D08176A8CE56FC27DB6C8EC0794AA /* 059.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 059.png; path = "HBChatKeyBoard/Assets/表情/059.png"; sourceTree = "<group>"; };
-		1B977588C513A181AEEE3A38202019E2 /* 106.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 106.png; path = "HBChatKeyBoard/Assets/表情/106.png"; sourceTree = "<group>"; };
-		1C8B09802AF497A7B8A24AF8976D6FC5 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
-		1CBFE762B34041DD6D50D7AFB8556D52 /* menu_video.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = menu_video.png; path = "HBChatKeyBoard/Assets/菜单/menu_video.png"; sourceTree = "<group>"; };
-		1CC9FDA7331EB43E194FF715461B8D98 /* 040.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 040.png; path = "HBChatKeyBoard/Assets/表情/040.png"; sourceTree = "<group>"; };
-		1D70E60229CFC2992804A513F0D50028 /* 052.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 052.png; path = "HBChatKeyBoard/Assets/表情/052.png"; sourceTree = "<group>"; };
-		1E0F6D881A1C74AB057879DBDA6AF7A1 /* 020.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 020.png; path = "HBChatKeyBoard/Assets/表情/020.png"; sourceTree = "<group>"; };
-		1E9C726E9860BA29DDD6E8D56A316E42 /* HBChatKeyBoard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBChatKeyBoard-umbrella.h"; sourceTree = "<group>"; };
-		21A8CD0C2FAA03E06D5943F1553363F1 /* 132.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 132.png; path = "HBChatKeyBoard/Assets/表情/132.png"; sourceTree = "<group>"; };
-		21CA56A65D00EFE32513D6C2198AE472 /* 065.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 065.png; path = "HBChatKeyBoard/Assets/表情/065.png"; sourceTree = "<group>"; };
-		22B91AD01FB1A726CCF87D06BCE08F3D /* 036.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 036.png; path = "HBChatKeyBoard/Assets/表情/036.png"; sourceTree = "<group>"; };
-		22CDC93712C3C6482CE5935E4B98DC03 /* 102.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 102.png; path = "HBChatKeyBoard/Assets/表情/102.png"; sourceTree = "<group>"; };
-		23103EFD9135B56BBDE9DFF05D1579FF /* HBEmojiFile.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = HBEmojiFile.plist; path = "HBChatKeyBoard/Assets/表情/HBEmojiFile.plist"; sourceTree = "<group>"; };
-		24C6071FFF01A472272D16B31AFFE23A /* 044.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 044.png; path = "HBChatKeyBoard/Assets/表情/044.png"; sourceTree = "<group>"; };
-		2595F23A1D2DB52EA835F4D9813891E9 /* 135.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 135.png; path = "HBChatKeyBoard/Assets/表情/135.png"; sourceTree = "<group>"; };
-		26DF9DCB3C7A04C8E027ACCA883CDAEE /* 114.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 114.png; path = "HBChatKeyBoard/Assets/表情/114.png"; sourceTree = "<group>"; };
-		273E7273DAC1DE051D073A40855DFF0D /* 104.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 104.png; path = "HBChatKeyBoard/Assets/表情/104.png"; sourceTree = "<group>"; };
-		2A2693C0471BD712125B8A9296A6BC20 /* 039.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 039.png; path = "HBChatKeyBoard/Assets/表情/039.png"; sourceTree = "<group>"; };
-		2AB9176573080242A3CDE52C9621DE42 /* 093.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 093.png; path = "HBChatKeyBoard/Assets/表情/093.png"; sourceTree = "<group>"; };
-		2C18E9447654DDC11A031BDEE337E397 /* 077.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 077.png; path = "HBChatKeyBoard/Assets/表情/077.png"; sourceTree = "<group>"; };
-		2C96B136777E9A0B0EFE7FFCF1EFF7C4 /* 018.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 018.png; path = "HBChatKeyBoard/Assets/表情/018.png"; sourceTree = "<group>"; };
-		2D86C9A9F383BDE5E18DB7A748049AC0 /* 028.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 028.png; path = "HBChatKeyBoard/Assets/表情/028.png"; sourceTree = "<group>"; };
-		2ECAE5D0B86E0A3311177EA15B4C260E /* 121.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 121.png; path = "HBChatKeyBoard/Assets/表情/121.png"; sourceTree = "<group>"; };
-		300A79CC3475274C87497561D5F42DB0 /* HBChatKeyBoard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBChatKeyBoard-dummy.m"; sourceTree = "<group>"; };
-		3026C43F8664DA2D00E8D24C59E25D4D /* 027.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 027.png; path = "HBChatKeyBoard/Assets/表情/027.png"; sourceTree = "<group>"; };
-		303ADBD89E19D3F33CFD83B0ED65021E /* 037.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 037.png; path = "HBChatKeyBoard/Assets/表情/037.png"; sourceTree = "<group>"; };
-		3354DEECEEDE2DD26B27C5839ADD84D8 /* 032.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 032.png; path = "HBChatKeyBoard/Assets/表情/032.png"; sourceTree = "<group>"; };
-		3363D3A87A01D5D06150E81C055C5119 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
-		33CE80244802814E937DD6DB670DA69C /* 045.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 045.png; path = "HBChatKeyBoard/Assets/表情/045.png"; sourceTree = "<group>"; };
-		3428A384233FF531FE80B0675DCE95C7 /* 006.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 006.png; path = "HBChatKeyBoard/Assets/表情/006.png"; sourceTree = "<group>"; };
-		35E7EBB008312CC1CFB1850EC1B4D6EC /* bar_keyboard.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = bar_keyboard.png; path = "HBChatKeyBoard/Assets/工具栏/bar_keyboard.png"; sourceTree = "<group>"; };
-		36A065150D09EBC1BDDE7954FE5CD4DC /* 081.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 081.png; path = "HBChatKeyBoard/Assets/表情/081.png"; sourceTree = "<group>"; };
-		390AE6937B4B4B25C07229176014F087 /* 125.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 125.png; path = "HBChatKeyBoard/Assets/表情/125.png"; sourceTree = "<group>"; };
-		3A4B997BF1BCEA458CC600A234093A68 /* 094.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 094.png; path = "HBChatKeyBoard/Assets/表情/094.png"; sourceTree = "<group>"; };
-		3AEA09573E896F8333758274DC0345B3 /* 015.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 015.png; path = "HBChatKeyBoard/Assets/表情/015.png"; sourceTree = "<group>"; };
-		3B25477C6E541C5812E1F76444EBFD1C /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
-		3B37CA2C465B07A586F9601C95ED1C52 /* 128.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 128.png; path = "HBChatKeyBoard/Assets/表情/128.png"; sourceTree = "<group>"; };
-		3C073D06846A98A999D23C83E3857115 /* 011.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 011.png; path = "HBChatKeyBoard/Assets/表情/011.png"; sourceTree = "<group>"; };
-		3E4FF38C1DCB9060123B787F7EDC99D1 /* 139.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 139.png; path = "HBChatKeyBoard/Assets/表情/139.png"; sourceTree = "<group>"; };
-		3E70F04360BFA1956839E8534EF62B32 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
-		3F111CEDC41B97ADDBB93B40FD183ED1 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
-		3F493882FDFDDFEC3C3A1971CDAE5E88 /* 096.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 096.png; path = "HBChatKeyBoard/Assets/表情/096.png"; sourceTree = "<group>"; };
-		3FC81344BFDB94EB926D6F6A53005D3C /* 138.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 138.png; path = "HBChatKeyBoard/Assets/表情/138.png"; sourceTree = "<group>"; };
-		40AE428AB95B3BA742DBFD81713A7226 /* 130.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 130.png; path = "HBChatKeyBoard/Assets/表情/130.png"; sourceTree = "<group>"; };
-		40BE04A6BE28FCF3EE76B85AAFEB6443 /* menu_gift.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = menu_gift.png; path = "HBChatKeyBoard/Assets/菜单/menu_gift.png"; sourceTree = "<group>"; };
-		413FC840B90A6225C295723275DB58BC /* 038.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 038.png; path = "HBChatKeyBoard/Assets/表情/038.png"; sourceTree = "<group>"; };
-		420AC768D84F9429620F68F3DFF66A57 /* ResourceBundle-HBChatKeyBoard-HBChatKeyBoard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HBChatKeyBoard-HBChatKeyBoard-Info.plist"; sourceTree = "<group>"; };
-		4595374468FCD4A829B10697CF7F3FF2 /* 088.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 088.png; path = "HBChatKeyBoard/Assets/表情/088.png"; sourceTree = "<group>"; };
-		461A9563FC486C51054DFEA44D7747C2 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
-		48091373373AF0D16067774C20BDE1FC /* 055.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 055.png; path = "HBChatKeyBoard/Assets/表情/055.png"; sourceTree = "<group>"; };
-		483DE0BEA414B39642D25A27942AAD7A /* 042.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 042.png; path = "HBChatKeyBoard/Assets/表情/042.png"; sourceTree = "<group>"; };
-		49EE45963A457797A9D3E88D2954D36B /* 116.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 116.png; path = "HBChatKeyBoard/Assets/表情/116.png"; sourceTree = "<group>"; };
-		4A095D700658F7239394E7059A5685FF /* 066.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 066.png; path = "HBChatKeyBoard/Assets/表情/066.png"; sourceTree = "<group>"; };
-		4BE9B07955CBAF4F7D1D38BFDD0B07F4 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
-		4CD0B4FE1295B8CE7CEF78D28BB39190 /* 056.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 056.png; path = "HBChatKeyBoard/Assets/表情/056.png"; sourceTree = "<group>"; };
-		4E390E092110853207F7D4878D41B00B /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
-		501A23037A3C01626C6E7C0280CB79C1 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
-		5131E192599AB794C4F4BBE7A586289B /* bar_add.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = bar_add.png; path = "HBChatKeyBoard/Assets/工具栏/bar_add.png"; sourceTree = "<group>"; };
-		51B62C1343B772BFB001A4DA2C322450 /* 099.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 099.png; path = "HBChatKeyBoard/Assets/表情/099.png"; sourceTree = "<group>"; };
-		52769E088E9BAD3E11D192DA0FCC8E24 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
-		52E42C869689DEBE2DDD2ADC724D250A /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		1A0D1CD10B3EBE5D1172D46A5158D007 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		1D310AAB8E50557845B5D7CF84C02F45 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		215EB1EB7D34BAE4D61BE35FD37C7B8C /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		218DECB55AE295F271C9D4E2198054FA /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		26FF6A5B7704FACC7F9307D312A7EF61 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		27296A8AF85BD96DAA199436E85BB6BA /* HBMoreMenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HBMoreMenuView.swift; sourceTree = "<group>"; };
+		2DF6B00130D28E47AF2876940E8308FD /* HBChatKeyBoard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HBChatKeyBoard-Info.plist"; sourceTree = "<group>"; };
+		3430CAA9F5F4252B6DD4819000AF4AF3 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		38C0BEE93AF56739E9FF303A7ECA5D04 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		3A85965DD9647E61984DC74CE37FF7FF /* HBRecordTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HBRecordTool.swift; sourceTree = "<group>"; };
+		3BCACF2E7E656D8DBB31398B045326F8 /* HBChatKeyBoard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBChatKeyBoard-umbrella.h"; sourceTree = "<group>"; };
+		3D1C9287C79763143BE714819158404F /* HBChatTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HBChatTextView.swift; sourceTree = "<group>"; };
+		3EEF84EA071AE73119F9F78CCB7A8FB5 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
+		425101B552E11290A01971FB977C9D94 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		42EC8E050E3BE6E46D7C010378F29A56 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
 		53B665BF9E7732C5FA8BB36B4F04198B /* Pods-HBChatKeyBoard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBChatKeyBoard_Example-dummy.m"; sourceTree = "<group>"; };
-		544C3FE16422A6017A95878BABBCC6E5 /* 108.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 108.png; path = "HBChatKeyBoard/Assets/表情/108.png"; sourceTree = "<group>"; };
-		572EFB0788515BF84ECC60C743395231 /* bar_mirco.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = bar_mirco.png; path = "HBChatKeyBoard/Assets/工具栏/bar_mirco.png"; sourceTree = "<group>"; };
-		579267C7BBA630DAF0ECF6C8948FB44B /* 012.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 012.png; path = "HBChatKeyBoard/Assets/表情/012.png"; sourceTree = "<group>"; };
-		58DA099870CBFC8AC18FDED5084C6246 /* 085.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 085.png; path = "HBChatKeyBoard/Assets/表情/085.png"; sourceTree = "<group>"; };
-		590E70EDC15E1F81DFC7ED26F1A84830 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
 		5990B4B17EB49D538616D7D5A76B339E /* Pods-HBChatKeyBoard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBChatKeyBoard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5BAFE3A29B2487491D761879B66B1B21 /* 005.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 005.png; path = "HBChatKeyBoard/Assets/表情/005.png"; sourceTree = "<group>"; };
-		60CD82DF677F3CC952E65E7AAC0AE6B2 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
-		61BBE6DF786A74B46194270A61FC2218 /* 057.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 057.png; path = "HBChatKeyBoard/Assets/表情/057.png"; sourceTree = "<group>"; };
-		61C87BCA22F39E5B0388051B28EC0A41 /* 029.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 029.png; path = "HBChatKeyBoard/Assets/表情/029.png"; sourceTree = "<group>"; };
-		638EEACB783D5E90F8EA28266086992B /* 022.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 022.png; path = "HBChatKeyBoard/Assets/表情/022.png"; sourceTree = "<group>"; };
-		63DBFA72B97BB9645EEDFDF0D107625F /* 080.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 080.png; path = "HBChatKeyBoard/Assets/表情/080.png"; sourceTree = "<group>"; };
-		65C5AFFDE99907661DABAEFBBDA349FD /* 079.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 079.png; path = "HBChatKeyBoard/Assets/表情/079.png"; sourceTree = "<group>"; };
+		5D03F3C139319EA4D8F5A6B079637C29 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		5E23D28928EB5BF4D98842FC05D91FA5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5FC6236D47CB2BA34B4F1F344E985DF2 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		65ECFB28DDFA00A26C7DEFA47C0B957D /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
 		67C87F70FDC6B547A2F16A0BF21ACC93 /* Pods-HBChatKeyBoard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBChatKeyBoard_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6863B6CACC9ADB88888FA85670196191 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
-		6873E4EF124B79DF8924B6F2EFCC3BCD /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
-		68A78DD9E68C2676171DAA4092AB55E4 /* 092.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 092.png; path = "HBChatKeyBoard/Assets/表情/092.png"; sourceTree = "<group>"; };
-		68E035475D61863F571E028E3BEB4AD0 /* 111.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 111.png; path = "HBChatKeyBoard/Assets/表情/111.png"; sourceTree = "<group>"; };
-		6944A236133AA02E95BD66E825F5E574 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
-		6ADA64F2BF47B7C63FE330F74D7073CE /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
-		6CF5DECF51AC0904399BFE2CCB56385B /* 118.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 118.png; path = "HBChatKeyBoard/Assets/表情/118.png"; sourceTree = "<group>"; };
-		6DAAA28EF4AE812DDEE962F0646B7E47 /* 076.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 076.png; path = "HBChatKeyBoard/Assets/表情/076.png"; sourceTree = "<group>"; };
-		6DE6213CF29052E5CD559B6E2F8BAB53 /* 013.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 013.png; path = "HBChatKeyBoard/Assets/表情/013.png"; sourceTree = "<group>"; };
-		6E64165208D12D7877B5692362BDF957 /* 090.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 090.png; path = "HBChatKeyBoard/Assets/表情/090.png"; sourceTree = "<group>"; };
-		734D13FEA3B1B7081DDD4EA86AC2C6FE /* 113.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 113.png; path = "HBChatKeyBoard/Assets/表情/113.png"; sourceTree = "<group>"; };
-		737FA5627D685541FF51C6BF2B3F6BF7 /* 072.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 072.png; path = "HBChatKeyBoard/Assets/表情/072.png"; sourceTree = "<group>"; };
-		741E94AF8B88A85302CB1D157C12D082 /* 097.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 097.png; path = "HBChatKeyBoard/Assets/表情/097.png"; sourceTree = "<group>"; };
-		7511FB83532D301870090A42D1EDF619 /* 067.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 067.png; path = "HBChatKeyBoard/Assets/表情/067.png"; sourceTree = "<group>"; };
-		75AF5A5068AEE54CC878E4A42669768E /* 137.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 137.png; path = "HBChatKeyBoard/Assets/表情/137.png"; sourceTree = "<group>"; };
-		76625BBCC8664142F1B028D019E9BB52 /* menu_image.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = menu_image.png; path = "HBChatKeyBoard/Assets/菜单/menu_image.png"; sourceTree = "<group>"; };
+		696D0C15939397708F7A906796D4C407 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		69940BF178423537E010EA0A592D164D /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		6FDC6561D7E59F96048734F4A9C87399 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		718501E66EB9C33CE1F87D62CC2CC57D /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		734D85E58F3C5B8F418EE9B0A943DFB6 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		74D1F6250B9560C48D2982462F5197C7 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		74D235C0E8456DA03B8724F17EA46D9F /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
 		76FD50FFB68AD75361CDCC52B6C33B40 /* Pods-HBChatKeyBoard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBChatKeyBoard_Example-frameworks.sh"; sourceTree = "<group>"; };
-		77AC26F654588A623D37B21AE0E9796F /* 062.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 062.png; path = "HBChatKeyBoard/Assets/表情/062.png"; sourceTree = "<group>"; };
 		78EA199DD55D0734208F4F989A96EBD1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		7A8D750C6ECEA53B56E9821E18BA23CD /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
-		7E066C30B919343DE271F0C67873D576 /* 122.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 122.png; path = "HBChatKeyBoard/Assets/表情/122.png"; sourceTree = "<group>"; };
 		7F4CED6759F03894FFF41F296DB107C3 /* Pods-HBChatKeyBoard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBChatKeyBoard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7F9AE07B67CBEC7EFB03C6C151CA3A66 /* 089.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 089.png; path = "HBChatKeyBoard/Assets/表情/089.png"; sourceTree = "<group>"; };
-		7FE4AEF83D2BEB2F62694FD54269E07E /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
 		8276D8404B62016B4D428F4008219F42 /* Pods-HBChatKeyBoard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBChatKeyBoard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		843306D8CC43590B5A1C687BB0737F5C /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
 		8719F006CB17BB031DA8EA360A3B4A5C /* Pods-HBChatKeyBoard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBChatKeyBoard_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		87397B857ABE0D667740D891AD58C23E /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		87F1B551FF522CF2476D7ADFAAA9EA18 /* 087.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 087.png; path = "HBChatKeyBoard/Assets/表情/087.png"; sourceTree = "<group>"; };
-		8811CB46A940B0706B1F4DB0F6B9B0F6 /* 086.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 086.png; path = "HBChatKeyBoard/Assets/表情/086.png"; sourceTree = "<group>"; };
-		8B7CE59F0C50C5AF1F28F2B8B06E8964 /* 002.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 002.png; path = "HBChatKeyBoard/Assets/表情/002.png"; sourceTree = "<group>"; };
+		8959EFF4ED2C473620C5934AF38D555E /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		899F131968B6B91328A92BB9A93DA611 /* HBTextAttachment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HBTextAttachment.swift; sourceTree = "<group>"; };
 		8C40AD8576AF89A8FD2F092B6B86516B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8F49C77D786BEE52A7A98070A5CE88AB /* 054.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 054.png; path = "HBChatKeyBoard/Assets/表情/054.png"; sourceTree = "<group>"; };
-		9035FE349231FB321B50C3F4BC4714BE /* 068.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 068.png; path = "HBChatKeyBoard/Assets/表情/068.png"; sourceTree = "<group>"; };
-		915EE0EBA2F8984C61DD421481D0353E /* 050.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 050.png; path = "HBChatKeyBoard/Assets/表情/050.png"; sourceTree = "<group>"; };
-		92B9EF81DCC8DF415891B11D3AA51699 /* 110.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 110.png; path = "HBChatKeyBoard/Assets/表情/110.png"; sourceTree = "<group>"; };
-		94CC16991E704DC11AC4BC92D0D4A637 /* 084.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 084.png; path = "HBChatKeyBoard/Assets/表情/084.png"; sourceTree = "<group>"; };
-		94DB6085C66D5EBA424747105F284123 /* 021.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 021.png; path = "HBChatKeyBoard/Assets/表情/021.png"; sourceTree = "<group>"; };
-		9B6063BB09F2C3AC9B4C86DA644643E2 /* 117.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 117.png; path = "HBChatKeyBoard/Assets/表情/117.png"; sourceTree = "<group>"; };
-		9C45EF3B81F1E33CEC1309F4E0B2A80D /* HBEmojiView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HBEmojiView.swift; path = HBChatKeyBoard/Classes/HBEmojiView/HBEmojiView.swift; sourceTree = "<group>"; };
-		9D31DA2DC5CE4EA1F168B1733432F4DD /* 010.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 010.png; path = "HBChatKeyBoard/Assets/表情/010.png"; sourceTree = "<group>"; };
+		8C5926F04B724FCFC18EB3D230A13C07 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		8D6693C457C9655D1E49B7B8027767CF /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		90D210A13529B69371A362230828E459 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		987D9011F616F5690D09CFC59CAC79EC /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		9AC281399063A5E62CECFBBD097D01D2 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F0D45E9E781AC3D12E8500F6972CEED /* 026.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 026.png; path = "HBChatKeyBoard/Assets/表情/026.png"; sourceTree = "<group>"; };
-		A054DB8451F3B3EA437DC4D41FD35E0F /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
-		A0E1EA87A818AF18E545503A69C9A2A9 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
-		A3ADB2D5C071FF002ACC3D627A29A680 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
-		A41CB8F68AC84096BD46B283716D688A /* menu_location.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = menu_location.png; path = "HBChatKeyBoard/Assets/菜单/menu_location.png"; sourceTree = "<group>"; };
-		A4A1B3636D5BC79DDF9F36995F1493DB /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
-		A670C9180CADA594831E0249A714EEB5 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
-		A71BE765B3246A8A8165EEC196399C33 /* 009.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 009.png; path = "HBChatKeyBoard/Assets/表情/009.png"; sourceTree = "<group>"; };
-		A7CBA0800D79DCDD1806F5A029586988 /* 124.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 124.png; path = "HBChatKeyBoard/Assets/表情/124.png"; sourceTree = "<group>"; };
-		A874171D01FF8DFB01AB97DC7CEE70E0 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
-		A8FA7DE9C33CBB7183442828331BB877 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
-		AD3601213EC2DCC5C811DABB87F3734A /* 003.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 003.png; path = "HBChatKeyBoard/Assets/表情/003.png"; sourceTree = "<group>"; };
-		ADAA4B38F9E444CED85433B0908D6EEE /* 126.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 126.png; path = "HBChatKeyBoard/Assets/表情/126.png"; sourceTree = "<group>"; };
-		ADE4CC104FFA50033491742D4460968E /* HBChatKeyBoard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBChatKeyBoard-prefix.pch"; sourceTree = "<group>"; };
+		A16CBDC9E8348101FB596E1B0D64B3DD /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		A66AA66BCD7583FB9A6324FB89D6C530 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		A671A026067AF279C0A07DAC5E3D5F56 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
 		AF05F6557035D58CE01E49499646B0FD /* HBChatKeyBoard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HBChatKeyBoard.bundle; path = "HBChatKeyBoard-HBChatKeyBoard.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFB9EECB85A047C0A256702599B6BF2A /* 060.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 060.png; path = "HBChatKeyBoard/Assets/表情/060.png"; sourceTree = "<group>"; };
 		B18A415ED967C6486485FC19619FAD01 /* Pods-HBChatKeyBoard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBChatKeyBoard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B190D896F75F6560FE1A58CB1230659A /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1C061F19CFEA8F1CD09ADF2A8CC153E /* 007.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 007.png; path = "HBChatKeyBoard/Assets/表情/007.png"; sourceTree = "<group>"; };
-		B25F91C0EFE5AEC3542BECFDC6398638 /* 023.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 023.png; path = "HBChatKeyBoard/Assets/表情/023.png"; sourceTree = "<group>"; };
 		B283F624EDB87580F30498A5ABA90A41 /* Pods-HBChatKeyBoard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBChatKeyBoard_Example.modulemap"; sourceTree = "<group>"; };
-		B3A3EA4D17FD72D0BEE2FCBA0406D202 /* 041.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 041.png; path = "HBChatKeyBoard/Assets/表情/041.png"; sourceTree = "<group>"; };
-		B608BCF73E005D4B483344A10CACB235 /* 047.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 047.png; path = "HBChatKeyBoard/Assets/表情/047.png"; sourceTree = "<group>"; };
-		B62C6A7BDC304EF5DE4B3F108CE89F58 /* delete.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = delete.png; path = "HBChatKeyBoard/Assets/表情/delete.png"; sourceTree = "<group>"; };
+		B49AAC8014AE93D59F520B6B17EF9A95 /* HBChatKeyBoard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HBChatKeyBoard.modulemap; sourceTree = "<group>"; };
 		B755F44D8748FEB933A8DC7D546C0402 /* Pods-HBChatKeyBoard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBChatKeyBoard_Tests.modulemap"; sourceTree = "<group>"; };
-		B95CCF83300F79662F8C7F54BCD5EFEA /* 129.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 129.png; path = "HBChatKeyBoard/Assets/表情/129.png"; sourceTree = "<group>"; };
-		BA954DF42F47624F5AAF768B0EAEDD4B /* 074.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 074.png; path = "HBChatKeyBoard/Assets/表情/074.png"; sourceTree = "<group>"; };
-		BC0928ED0094048799B24438B5AC132B /* 105.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 105.png; path = "HBChatKeyBoard/Assets/表情/105.png"; sourceTree = "<group>"; };
+		B9A23A622F5C4584CA8572230255801A /* HBChatKeyBoard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBChatKeyBoard-dummy.m"; sourceTree = "<group>"; };
+		BC9F88505958E8DD77D99588F0471563 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
 		BE0578CD169006E297C43DDD489060E2 /* Pods-HBChatKeyBoard_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBChatKeyBoard_Tests-Info.plist"; sourceTree = "<group>"; };
-		BE3A998AF08C49C3D69ABE93DD32C318 /* 083.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 083.png; path = "HBChatKeyBoard/Assets/表情/083.png"; sourceTree = "<group>"; };
-		BED5BB785304A7112563BD505774D7A7 /* bar_emoj.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = bar_emoj.png; path = "HBChatKeyBoard/Assets/工具栏/bar_emoj.png"; sourceTree = "<group>"; };
-		C43278357EC0005F2C28FF705E0A0E64 /* HBChatKeyBoard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HBChatKeyBoard.modulemap; sourceTree = "<group>"; };
-		C4F900C5BDA2569093EA74CC2FE4043C /* 103.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 103.png; path = "HBChatKeyBoard/Assets/表情/103.png"; sourceTree = "<group>"; };
 		C56C50A9F5148857A390C7E7FDB3B024 /* Pods_HBChatKeyBoard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HBChatKeyBoard_Example.framework; path = "Pods-HBChatKeyBoard_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F1DE8442EE02B0B219A4D8C9A21B07 /* Pods-HBChatKeyBoard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBChatKeyBoard_Example-umbrella.h"; sourceTree = "<group>"; };
-		C614531295B0B043E6D3FAA17C6C14E8 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
-		C7862A72A429B2F5624781382EACD2D6 /* 031.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 031.png; path = "HBChatKeyBoard/Assets/表情/031.png"; sourceTree = "<group>"; };
-		C8495F33A94D72C64E39AD02BCF50B51 /* 030.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 030.png; path = "HBChatKeyBoard/Assets/表情/030.png"; sourceTree = "<group>"; };
-		C98CE429B52B000CB626D3734ACB6631 /* 001.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 001.png; path = "HBChatKeyBoard/Assets/表情/001.png"; sourceTree = "<group>"; };
-		C9A3A2B591B196121A510029B9747E48 /* 091.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 091.png; path = "HBChatKeyBoard/Assets/表情/091.png"; sourceTree = "<group>"; };
-		C9B3E14354D51EAB3347811640DD79D7 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
-		C9DD81148F6B710BB29BBD48B8D4D992 /* 109.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 109.png; path = "HBChatKeyBoard/Assets/表情/109.png"; sourceTree = "<group>"; };
-		CBA232B7785C7DCD7982E3BA384260E7 /* HBChatTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HBChatTextView.swift; path = HBChatKeyBoard/Classes/HBChatTextView/HBChatTextView.swift; sourceTree = "<group>"; };
-		CBA554423926A4C5EF7820C07EEBE338 /* 100.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 100.png; path = "HBChatKeyBoard/Assets/表情/100.png"; sourceTree = "<group>"; };
-		CBBDA482D4AD7E70603DD91FCBCAFBC1 /* 098.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 098.png; path = "HBChatKeyBoard/Assets/表情/098.png"; sourceTree = "<group>"; };
-		CCA9A2DAA3F37BDB7F0E99483F00CAF7 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
-		CCBA95D948D616B3AB6B6178763D0BA7 /* 048.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 048.png; path = "HBChatKeyBoard/Assets/表情/048.png"; sourceTree = "<group>"; };
-		CEC372512CCC69E78C2CBBAE0D638021 /* 101.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 101.png; path = "HBChatKeyBoard/Assets/表情/101.png"; sourceTree = "<group>"; };
-		CFB77B0BF2BC2D1466735C75FEADD018 /* 033.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 033.png; path = "HBChatKeyBoard/Assets/表情/033.png"; sourceTree = "<group>"; };
-		D27AF1C7DD9E64251CCCD7D25814ED4B /* 016.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 016.png; path = "HBChatKeyBoard/Assets/表情/016.png"; sourceTree = "<group>"; };
-		D2EB8EB2554DC5EB2B764EC3B94BD93E /* menu_camera.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = menu_camera.png; path = "HBChatKeyBoard/Assets/菜单/menu_camera.png"; sourceTree = "<group>"; };
-		D35DBBEE55ED585C65187884D579D17B /* HBChatKeyBoard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HBChatKeyBoard-Info.plist"; sourceTree = "<group>"; };
-		D42387577FFCCC6653D5CF05B1F6DB0C /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
-		D45299516F652129B4293D831B213356 /* 025.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 025.png; path = "HBChatKeyBoard/Assets/表情/025.png"; sourceTree = "<group>"; };
-		D45431512648FEACB6E3C68D83E428BD /* 095.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 095.png; path = "HBChatKeyBoard/Assets/表情/095.png"; sourceTree = "<group>"; };
-		D525A7D5FBD1B4292A6BC764F47BD31A /* 019.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 019.png; path = "HBChatKeyBoard/Assets/表情/019.png"; sourceTree = "<group>"; };
-		D57AB5D63869C18481F460DDCA1F7CF7 /* 051.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 051.png; path = "HBChatKeyBoard/Assets/表情/051.png"; sourceTree = "<group>"; };
-		D5F017147B419FAC70ED49DD514AE93D /* 024.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 024.png; path = "HBChatKeyBoard/Assets/表情/024.png"; sourceTree = "<group>"; };
-		D6975CCC74CB9740964F418FC2B4B7C8 /* 082.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 082.png; path = "HBChatKeyBoard/Assets/表情/082.png"; sourceTree = "<group>"; };
-		D7CB0D94919C23D022D992BDC6E8FE01 /* 134.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 134.png; path = "HBChatKeyBoard/Assets/表情/134.png"; sourceTree = "<group>"; };
-		D7E8A9FC1C1C42514CB7EEAB93647635 /* 061.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 061.png; path = "HBChatKeyBoard/Assets/表情/061.png"; sourceTree = "<group>"; };
-		D98EC5E5DB1D07DC3491C6B5BD32A049 /* HBRecordTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HBRecordTool.swift; path = HBChatKeyBoard/Classes/HBRecordTool/HBRecordTool.swift; sourceTree = "<group>"; };
-		DB7F972084D674F51269AD9AF9625F1B /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
-		DD15FADFD241CC1A5B6A5E81B2D03906 /* 046.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 046.png; path = "HBChatKeyBoard/Assets/表情/046.png"; sourceTree = "<group>"; };
-		DFD69594BA5FD157D529DEEB597A129D /* 043.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 043.png; path = "HBChatKeyBoard/Assets/表情/043.png"; sourceTree = "<group>"; };
-		E0D89820FF0053ED04C8ABB948B19B7B /* 070.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 070.png; path = "HBChatKeyBoard/Assets/表情/070.png"; sourceTree = "<group>"; };
-		E2AB9DEE6FBC75F7A131D670C11BE66A /* 131.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 131.png; path = "HBChatKeyBoard/Assets/表情/131.png"; sourceTree = "<group>"; };
-		E2E77A865B1C32F937526CE200C724F6 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		CA4FF4E71663EC42540FE25987543F34 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		D0F94C7C263067A0535BA4C068F5BA96 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		D4AD9E4FE9A7F4064B966CA8E6FD6521 /* HBChatKeyBoard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HBChatKeyBoard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D51260F311E2CD7F11A05031F2DB74EC /* HBEmojiView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HBEmojiView.swift; sourceTree = "<group>"; };
+		D758E07381D60CF5B22B252DDBE585A0 /* HBChatKeyBoard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBChatKeyBoard.xcconfig; sourceTree = "<group>"; };
+		DD039FBA819454A39CAF5DB6BF3C8D31 /* HBChatKeyBoardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HBChatKeyBoardView.swift; path = HBChatKeyBoard/Classes/HBChatKeyBoardView.swift; sourceTree = "<group>"; };
 		E3697ED78F9D601BF60933642B8CA163 /* Pods-HBChatKeyBoard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBChatKeyBoard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E3D305B039057889A2441512738FC44C /* Pods-HBChatKeyBoard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBChatKeyBoard_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E4925BEE1A5BA68C02308045D722D18E /* HBChatKeyBoardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HBChatKeyBoardView.swift; path = HBChatKeyBoard/Classes/HBChatKeyBoardView.swift; sourceTree = "<group>"; };
-		E61C2A6AD9E8951C4421453D85AB7DCB /* 064.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 064.png; path = "HBChatKeyBoard/Assets/表情/064.png"; sourceTree = "<group>"; };
-		E6D764327CAD50A4BBCB6C035E2DC2F4 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
-		E6E6944B9A49AA27E773E8B2F2416C2A /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
-		E722DA8981A221F1B1D969AF6EAFFE3A /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
-		E8AECCFC2E97AC77B90A7C21DA4B1B27 /* HBMoreMenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HBMoreMenuView.swift; path = HBChatKeyBoard/Classes/HBMoreMenuView/HBMoreMenuView.swift; sourceTree = "<group>"; };
-		E9DCE1FC7FBCB0ECF8686878227294AC /* 127.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 127.png; path = "HBChatKeyBoard/Assets/表情/127.png"; sourceTree = "<group>"; };
-		EDE7FF03F9DA7B7CE41C87E706950CBA /* HBChatKeyBoard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBChatKeyBoard.xcconfig; sourceTree = "<group>"; };
-		F30D9F53371F1305D4985315BF31C7A7 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
-		F3201BDD2BD20EE8FD92206C272ACB33 /* 049.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 049.png; path = "HBChatKeyBoard/Assets/表情/049.png"; sourceTree = "<group>"; };
-		F92DE768BF3009A8AE3FC4CD4C30D404 /* 123.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 123.png; path = "HBChatKeyBoard/Assets/表情/123.png"; sourceTree = "<group>"; };
-		F945F186F271E923D13271909AEA28EF /* 078.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 078.png; path = "HBChatKeyBoard/Assets/表情/078.png"; sourceTree = "<group>"; };
-		FADC97E1F9F7F11D5F23E8C9820C8CC7 /* 115.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 115.png; path = "HBChatKeyBoard/Assets/表情/115.png"; sourceTree = "<group>"; };
-		FD1981D07703BA6FE215E93D8CB53031 /* 133.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 133.png; path = "HBChatKeyBoard/Assets/表情/133.png"; sourceTree = "<group>"; };
+		E8B2D75BA44BD7EC2F724E0EDB30F325 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		F1A7AEA6044B2018807C2D766ED9025D /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		F53136A44C3AF8EA930C8F0C67B926F0 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		FB7D566F10A958238A4ACEC7C003CF5E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		FD30BFADAC7ADBED66157DD94A090887 /* Pods_HBChatKeyBoard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HBChatKeyBoard_Tests.framework; path = "Pods-HBChatKeyBoard_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF46D863D9661AC14EFB2B025A9B6A1F /* 017.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 017.png; path = "HBChatKeyBoard/Assets/表情/017.png"; sourceTree = "<group>"; };
-		FFCB961918AE68D13513AFDBBBFD114E /* 058.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 058.png; path = "HBChatKeyBoard/Assets/表情/058.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -534,18 +235,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		190A04CB446EB6997D6417AF9F4FAECE /* Support Files */ = {
+		2B75BC2E1D5D170AAE77341AC04BAB16 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				60CD82DF677F3CC952E65E7AAC0AE6B2 /* SnapKit.modulemap */,
-				A0E1EA87A818AF18E545503A69C9A2A9 /* SnapKit.xcconfig */,
-				A054DB8451F3B3EA437DC4D41FD35E0F /* SnapKit-dummy.m */,
-				F30D9F53371F1305D4985315BF31C7A7 /* SnapKit-Info.plist */,
-				08F69967E5665D7FD1433F0F0DD3846A /* SnapKit-prefix.pch */,
-				A8FA7DE9C33CBB7183442828331BB877 /* SnapKit-umbrella.h */,
+				B49AAC8014AE93D59F520B6B17EF9A95 /* HBChatKeyBoard.modulemap */,
+				D758E07381D60CF5B22B252DDBE585A0 /* HBChatKeyBoard.xcconfig */,
+				B9A23A622F5C4584CA8572230255801A /* HBChatKeyBoard-dummy.m */,
+				2DF6B00130D28E47AF2876940E8308FD /* HBChatKeyBoard-Info.plist */,
+				104337EC442E4919BFDACFCF458FF7BB /* HBChatKeyBoard-prefix.pch */,
+				3BCACF2E7E656D8DBB31398B045326F8 /* HBChatKeyBoard-umbrella.h */,
+				01BB24028A3C264BE91C4EE67E757891 /* ResourceBundle-HBChatKeyBoard-HBChatKeyBoard-Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SnapKit";
+			path = "Example/Pods/Target Support Files/HBChatKeyBoard";
 			sourceTree = "<group>";
 		};
 		2C267FCF76489802966B11EBDECF2176 /* Targets Support Files */ = {
@@ -557,178 +259,20 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3CA1C488A3CA69A377D5D0D930DBD8C3 /* Resources */ = {
+		427B270BD76A5EF45313FBF29233B96D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C98CE429B52B000CB626D3734ACB6631 /* 001.png */,
-				8B7CE59F0C50C5AF1F28F2B8B06E8964 /* 002.png */,
-				AD3601213EC2DCC5C811DABB87F3734A /* 003.png */,
-				1995004F18F003E8DF582DD033E68B07 /* 004.png */,
-				5BAFE3A29B2487491D761879B66B1B21 /* 005.png */,
-				3428A384233FF531FE80B0675DCE95C7 /* 006.png */,
-				B1C061F19CFEA8F1CD09ADF2A8CC153E /* 007.png */,
-				125E78ABE8D857ADB58EC293857E0051 /* 008.png */,
-				A71BE765B3246A8A8165EEC196399C33 /* 009.png */,
-				9D31DA2DC5CE4EA1F168B1733432F4DD /* 010.png */,
-				3C073D06846A98A999D23C83E3857115 /* 011.png */,
-				579267C7BBA630DAF0ECF6C8948FB44B /* 012.png */,
-				6DE6213CF29052E5CD559B6E2F8BAB53 /* 013.png */,
-				18F020A92B499239EB208E7F875E947A /* 014.png */,
-				3AEA09573E896F8333758274DC0345B3 /* 015.png */,
-				D27AF1C7DD9E64251CCCD7D25814ED4B /* 016.png */,
-				FF46D863D9661AC14EFB2B025A9B6A1F /* 017.png */,
-				2C96B136777E9A0B0EFE7FFCF1EFF7C4 /* 018.png */,
-				D525A7D5FBD1B4292A6BC764F47BD31A /* 019.png */,
-				1E0F6D881A1C74AB057879DBDA6AF7A1 /* 020.png */,
-				94DB6085C66D5EBA424747105F284123 /* 021.png */,
-				638EEACB783D5E90F8EA28266086992B /* 022.png */,
-				B25F91C0EFE5AEC3542BECFDC6398638 /* 023.png */,
-				D5F017147B419FAC70ED49DD514AE93D /* 024.png */,
-				D45299516F652129B4293D831B213356 /* 025.png */,
-				9F0D45E9E781AC3D12E8500F6972CEED /* 026.png */,
-				3026C43F8664DA2D00E8D24C59E25D4D /* 027.png */,
-				2D86C9A9F383BDE5E18DB7A748049AC0 /* 028.png */,
-				61C87BCA22F39E5B0388051B28EC0A41 /* 029.png */,
-				C8495F33A94D72C64E39AD02BCF50B51 /* 030.png */,
-				C7862A72A429B2F5624781382EACD2D6 /* 031.png */,
-				3354DEECEEDE2DD26B27C5839ADD84D8 /* 032.png */,
-				CFB77B0BF2BC2D1466735C75FEADD018 /* 033.png */,
-				0FD4CDA7F64970EFAFA26885F15E374B /* 034.png */,
-				1582B9E34F685C24AD9547B382F68AFA /* 035.png */,
-				22B91AD01FB1A726CCF87D06BCE08F3D /* 036.png */,
-				303ADBD89E19D3F33CFD83B0ED65021E /* 037.png */,
-				413FC840B90A6225C295723275DB58BC /* 038.png */,
-				2A2693C0471BD712125B8A9296A6BC20 /* 039.png */,
-				1CC9FDA7331EB43E194FF715461B8D98 /* 040.png */,
-				B3A3EA4D17FD72D0BEE2FCBA0406D202 /* 041.png */,
-				483DE0BEA414B39642D25A27942AAD7A /* 042.png */,
-				DFD69594BA5FD157D529DEEB597A129D /* 043.png */,
-				24C6071FFF01A472272D16B31AFFE23A /* 044.png */,
-				33CE80244802814E937DD6DB670DA69C /* 045.png */,
-				DD15FADFD241CC1A5B6A5E81B2D03906 /* 046.png */,
-				B608BCF73E005D4B483344A10CACB235 /* 047.png */,
-				CCBA95D948D616B3AB6B6178763D0BA7 /* 048.png */,
-				F3201BDD2BD20EE8FD92206C272ACB33 /* 049.png */,
-				915EE0EBA2F8984C61DD421481D0353E /* 050.png */,
-				D57AB5D63869C18481F460DDCA1F7CF7 /* 051.png */,
-				1D70E60229CFC2992804A513F0D50028 /* 052.png */,
-				042D3155B1D806B40F39CAFBD193CAD6 /* 053.png */,
-				8F49C77D786BEE52A7A98070A5CE88AB /* 054.png */,
-				48091373373AF0D16067774C20BDE1FC /* 055.png */,
-				4CD0B4FE1295B8CE7CEF78D28BB39190 /* 056.png */,
-				61BBE6DF786A74B46194270A61FC2218 /* 057.png */,
-				FFCB961918AE68D13513AFDBBBFD114E /* 058.png */,
-				1A6D08176A8CE56FC27DB6C8EC0794AA /* 059.png */,
-				AFB9EECB85A047C0A256702599B6BF2A /* 060.png */,
-				D7E8A9FC1C1C42514CB7EEAB93647635 /* 061.png */,
-				77AC26F654588A623D37B21AE0E9796F /* 062.png */,
-				1505E7395676C42934AFB8283D896AF2 /* 063.png */,
-				E61C2A6AD9E8951C4421453D85AB7DCB /* 064.png */,
-				21CA56A65D00EFE32513D6C2198AE472 /* 065.png */,
-				4A095D700658F7239394E7059A5685FF /* 066.png */,
-				7511FB83532D301870090A42D1EDF619 /* 067.png */,
-				9035FE349231FB321B50C3F4BC4714BE /* 068.png */,
-				1555C72BFD085D5DB3F1EAB5B1D4085D /* 069.png */,
-				E0D89820FF0053ED04C8ABB948B19B7B /* 070.png */,
-				12F388BFCCE8CB2461616209730C56EA /* 071.png */,
-				737FA5627D685541FF51C6BF2B3F6BF7 /* 072.png */,
-				0D70AC19090C088B5054033CE2CE8735 /* 073.png */,
-				BA954DF42F47624F5AAF768B0EAEDD4B /* 074.png */,
-				0A130F213F33F68FCDEF24726013EDA3 /* 075.png */,
-				6DAAA28EF4AE812DDEE962F0646B7E47 /* 076.png */,
-				2C18E9447654DDC11A031BDEE337E397 /* 077.png */,
-				F945F186F271E923D13271909AEA28EF /* 078.png */,
-				65C5AFFDE99907661DABAEFBBDA349FD /* 079.png */,
-				63DBFA72B97BB9645EEDFDF0D107625F /* 080.png */,
-				36A065150D09EBC1BDDE7954FE5CD4DC /* 081.png */,
-				D6975CCC74CB9740964F418FC2B4B7C8 /* 082.png */,
-				BE3A998AF08C49C3D69ABE93DD32C318 /* 083.png */,
-				94CC16991E704DC11AC4BC92D0D4A637 /* 084.png */,
-				58DA099870CBFC8AC18FDED5084C6246 /* 085.png */,
-				8811CB46A940B0706B1F4DB0F6B9B0F6 /* 086.png */,
-				87F1B551FF522CF2476D7ADFAAA9EA18 /* 087.png */,
-				4595374468FCD4A829B10697CF7F3FF2 /* 088.png */,
-				7F9AE07B67CBEC7EFB03C6C151CA3A66 /* 089.png */,
-				6E64165208D12D7877B5692362BDF957 /* 090.png */,
-				C9A3A2B591B196121A510029B9747E48 /* 091.png */,
-				68A78DD9E68C2676171DAA4092AB55E4 /* 092.png */,
-				2AB9176573080242A3CDE52C9621DE42 /* 093.png */,
-				3A4B997BF1BCEA458CC600A234093A68 /* 094.png */,
-				D45431512648FEACB6E3C68D83E428BD /* 095.png */,
-				3F493882FDFDDFEC3C3A1971CDAE5E88 /* 096.png */,
-				741E94AF8B88A85302CB1D157C12D082 /* 097.png */,
-				CBBDA482D4AD7E70603DD91FCBCAFBC1 /* 098.png */,
-				51B62C1343B772BFB001A4DA2C322450 /* 099.png */,
-				CBA554423926A4C5EF7820C07EEBE338 /* 100.png */,
-				CEC372512CCC69E78C2CBBAE0D638021 /* 101.png */,
-				22CDC93712C3C6482CE5935E4B98DC03 /* 102.png */,
-				C4F900C5BDA2569093EA74CC2FE4043C /* 103.png */,
-				273E7273DAC1DE051D073A40855DFF0D /* 104.png */,
-				BC0928ED0094048799B24438B5AC132B /* 105.png */,
-				1B977588C513A181AEEE3A38202019E2 /* 106.png */,
-				03D459D87965890A3100B2182839F138 /* 107.png */,
-				544C3FE16422A6017A95878BABBCC6E5 /* 108.png */,
-				C9DD81148F6B710BB29BBD48B8D4D992 /* 109.png */,
-				92B9EF81DCC8DF415891B11D3AA51699 /* 110.png */,
-				68E035475D61863F571E028E3BEB4AD0 /* 111.png */,
-				0A6DF3CBF99F29FCEC58B23B23942653 /* 112.png */,
-				734D13FEA3B1B7081DDD4EA86AC2C6FE /* 113.png */,
-				26DF9DCB3C7A04C8E027ACCA883CDAEE /* 114.png */,
-				FADC97E1F9F7F11D5F23E8C9820C8CC7 /* 115.png */,
-				49EE45963A457797A9D3E88D2954D36B /* 116.png */,
-				9B6063BB09F2C3AC9B4C86DA644643E2 /* 117.png */,
-				6CF5DECF51AC0904399BFE2CCB56385B /* 118.png */,
-				07340CC086B0A92EB46A1BB57118FE07 /* 119.png */,
-				10AC88EC969B9D5239211C7B4324CBB8 /* 120.png */,
-				2ECAE5D0B86E0A3311177EA15B4C260E /* 121.png */,
-				7E066C30B919343DE271F0C67873D576 /* 122.png */,
-				F92DE768BF3009A8AE3FC4CD4C30D404 /* 123.png */,
-				A7CBA0800D79DCDD1806F5A029586988 /* 124.png */,
-				390AE6937B4B4B25C07229176014F087 /* 125.png */,
-				ADAA4B38F9E444CED85433B0908D6EEE /* 126.png */,
-				E9DCE1FC7FBCB0ECF8686878227294AC /* 127.png */,
-				3B37CA2C465B07A586F9601C95ED1C52 /* 128.png */,
-				B95CCF83300F79662F8C7F54BCD5EFEA /* 129.png */,
-				40AE428AB95B3BA742DBFD81713A7226 /* 130.png */,
-				E2AB9DEE6FBC75F7A131D670C11BE66A /* 131.png */,
-				21A8CD0C2FAA03E06D5943F1553363F1 /* 132.png */,
-				FD1981D07703BA6FE215E93D8CB53031 /* 133.png */,
-				D7CB0D94919C23D022D992BDC6E8FE01 /* 134.png */,
-				2595F23A1D2DB52EA835F4D9813891E9 /* 135.png */,
-				17FB6FB2C8C437875357C5BB79CF5C5B /* 136.png */,
-				75AF5A5068AEE54CC878E4A42669768E /* 137.png */,
-				3FC81344BFDB94EB926D6F6A53005D3C /* 138.png */,
-				3E4FF38C1DCB9060123B787F7EDC99D1 /* 139.png */,
-				1128067DAB9FE09957B460DFD2D1FD63 /* 140.png */,
-				5131E192599AB794C4F4BBE7A586289B /* bar_add.png */,
-				BED5BB785304A7112563BD505774D7A7 /* bar_emoj.png */,
-				35E7EBB008312CC1CFB1850EC1B4D6EC /* bar_keyboard.png */,
-				572EFB0788515BF84ECC60C743395231 /* bar_mirco.png */,
-				B62C6A7BDC304EF5DE4B3F108CE89F58 /* delete.png */,
-				23103EFD9135B56BBDE9DFF05D1579FF /* HBEmojiFile.plist */,
-				D2EB8EB2554DC5EB2B764EC3B94BD93E /* menu_camera.png */,
-				40BE04A6BE28FCF3EE76B85AAFEB6443 /* menu_gift.png */,
-				76625BBCC8664142F1B028D019E9BB52 /* menu_image.png */,
-				A41CB8F68AC84096BD46B283716D688A /* menu_location.png */,
-				1CBFE762B34041DD6D50D7AFB8556D52 /* menu_video.png */,
+				F64F26DEDF5F31DDC5DB06B012746920 /* SnapKit */,
 			);
-			name = Resources;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		48A726BB487A864C52E75D44772EA33A /* HBChatKeyBoard */ = {
+		54E8A39573C435E12AF56FDBB1374259 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E4925BEE1A5BA68C02308045D722D18E /* HBChatKeyBoardView.swift */,
-				CBA232B7785C7DCD7982E3BA384260E7 /* HBChatTextView.swift */,
-				9C45EF3B81F1E33CEC1309F4E0B2A80D /* HBEmojiView.swift */,
-				E8AECCFC2E97AC77B90A7C21DA4B1B27 /* HBMoreMenuView.swift */,
-				D98EC5E5DB1D07DC3491C6B5BD32A049 /* HBRecordTool.swift */,
-				0C2A43A18C314985B2D17275ED32E8BE /* HBTextAttachment.swift */,
-				3CA1C488A3CA69A377D5D0D930DBD8C3 /* Resources */,
-				B4E21B0FA35D293E95855692B9B42230 /* Support Files */,
+				8A3C0C7E666BCC7E45E856C495F29F08 /* HBChatKeyBoard */,
 			);
-			name = HBChatKeyBoard;
-			path = HBChatKeyBoard;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		59C99AC290D29FED1DD234D259ED1A7A /* Pods-HBChatKeyBoard_Example */ = {
@@ -764,6 +308,15 @@
 			path = "Target Support Files/Pods-HBChatKeyBoard_Tests";
 			sourceTree = "<group>";
 		};
+		88BF5C4814D627315E2B9BF5A753F0BD /* HBMoreMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				27296A8AF85BD96DAA199436E85BB6BA /* HBMoreMenuView.swift */,
+			);
+			name = HBMoreMenuView;
+			path = HBChatKeyBoard/Classes/HBMoreMenuView;
+			sourceTree = "<group>";
+		};
 		8946360D9EDD554BC87E03CD218BF68F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -774,19 +327,37 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		B4E21B0FA35D293E95855692B9B42230 /* Support Files */ = {
+		8A3C0C7E666BCC7E45E856C495F29F08 /* HBChatKeyBoard */ = {
 			isa = PBXGroup;
 			children = (
-				C43278357EC0005F2C28FF705E0A0E64 /* HBChatKeyBoard.modulemap */,
-				EDE7FF03F9DA7B7CE41C87E706950CBA /* HBChatKeyBoard.xcconfig */,
-				300A79CC3475274C87497561D5F42DB0 /* HBChatKeyBoard-dummy.m */,
-				D35DBBEE55ED585C65187884D579D17B /* HBChatKeyBoard-Info.plist */,
-				ADE4CC104FFA50033491742D4460968E /* HBChatKeyBoard-prefix.pch */,
-				1E9C726E9860BA29DDD6E8D56A316E42 /* HBChatKeyBoard-umbrella.h */,
-				420AC768D84F9429620F68F3DFF66A57 /* ResourceBundle-HBChatKeyBoard-HBChatKeyBoard-Info.plist */,
+				DD039FBA819454A39CAF5DB6BF3C8D31 /* HBChatKeyBoardView.swift */,
+				9EADD8411E1CB2C6DF5E6070A7B47F2C /* HBChatTextView */,
+				D598432AC91D6B14C73230FDDCA6E18B /* HBEmojiView */,
+				88BF5C4814D627315E2B9BF5A753F0BD /* HBMoreMenuView */,
+				A6134BC627AAA910800803EE3315CCA1 /* HBRecordTool */,
+				C6A0DA25F2EDD82BB0EDED2CB380654A /* Pod */,
+				2B75BC2E1D5D170AAE77341AC04BAB16 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/HBChatKeyBoard";
+			name = HBChatKeyBoard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9EADD8411E1CB2C6DF5E6070A7B47F2C /* HBChatTextView */ = {
+			isa = PBXGroup;
+			children = (
+				3D1C9287C79763143BE714819158404F /* HBChatTextView.swift */,
+			);
+			name = HBChatTextView;
+			path = HBChatKeyBoard/Classes/HBChatTextView;
+			sourceTree = "<group>";
+		};
+		A6134BC627AAA910800803EE3315CCA1 /* HBRecordTool */ = {
+			isa = PBXGroup;
+			children = (
+				3A85965DD9647E61984DC74CE37FF7FF /* HBRecordTool.swift */,
+			);
+			name = HBRecordTool;
+			path = HBChatKeyBoard/Classes/HBRecordTool;
 			sourceTree = "<group>";
 		};
 		B80CED95F06E2423481179AB8676D919 /* Frameworks */ = {
@@ -810,67 +381,93 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CE4C00E4063B73B9FA0467C985B9C29D /* SnapKit */ = {
+		C6A0DA25F2EDD82BB0EDED2CB380654A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4E390E092110853207F7D4878D41B00B /* Constraint.swift */,
-				A874171D01FF8DFB01AB97DC7CEE70E0 /* ConstraintAttributes.swift */,
-				4BE9B07955CBAF4F7D1D38BFDD0B07F4 /* ConstraintConfig.swift */,
-				E722DA8981A221F1B1D969AF6EAFFE3A /* ConstraintConstantTarget.swift */,
-				C614531295B0B043E6D3FAA17C6C14E8 /* ConstraintDescription.swift */,
-				52769E088E9BAD3E11D192DA0FCC8E24 /* ConstraintDSL.swift */,
-				3B25477C6E541C5812E1F76444EBFD1C /* ConstraintInsets.swift */,
-				843306D8CC43590B5A1C687BB0737F5C /* ConstraintInsetTarget.swift */,
-				A4A1B3636D5BC79DDF9F36995F1493DB /* ConstraintItem.swift */,
-				E6D764327CAD50A4BBCB6C035E2DC2F4 /* ConstraintLayoutGuide.swift */,
-				590E70EDC15E1F81DFC7ED26F1A84830 /* ConstraintLayoutGuide+Extensions.swift */,
-				52E42C869689DEBE2DDD2ADC724D250A /* ConstraintLayoutGuideDSL.swift */,
-				3F111CEDC41B97ADDBB93B40FD183ED1 /* ConstraintLayoutSupport.swift */,
-				7FE4AEF83D2BEB2F62694FD54269E07E /* ConstraintLayoutSupportDSL.swift */,
-				6944A236133AA02E95BD66E825F5E574 /* ConstraintMaker.swift */,
-				7A8D750C6ECEA53B56E9821E18BA23CD /* ConstraintMakerEditable.swift */,
-				085DCDE6EC68D3C54C6492D86AD123AB /* ConstraintMakerExtendable.swift */,
-				1C8B09802AF497A7B8A24AF8976D6FC5 /* ConstraintMakerFinalizable.swift */,
-				A3ADB2D5C071FF002ACC3D627A29A680 /* ConstraintMakerPriortizable.swift */,
-				6ADA64F2BF47B7C63FE330F74D7073CE /* ConstraintMakerRelatable.swift */,
-				6873E4EF124B79DF8924B6F2EFCC3BCD /* ConstraintMultiplierTarget.swift */,
-				6863B6CACC9ADB88888FA85670196191 /* ConstraintOffsetTarget.swift */,
-				A670C9180CADA594831E0249A714EEB5 /* ConstraintPriority.swift */,
-				D42387577FFCCC6653D5CF05B1F6DB0C /* ConstraintPriorityTarget.swift */,
-				3E70F04360BFA1956839E8534EF62B32 /* ConstraintRelatableTarget.swift */,
-				3363D3A87A01D5D06150E81C055C5119 /* ConstraintRelation.swift */,
-				E2E77A865B1C32F937526CE200C724F6 /* ConstraintView.swift */,
-				13B8252259199DF0462F7C1397D025C4 /* ConstraintView+Extensions.swift */,
-				DB7F972084D674F51269AD9AF9625F1B /* ConstraintViewDSL.swift */,
-				461A9563FC486C51054DFEA44D7747C2 /* Debugging.swift */,
-				E6E6944B9A49AA27E773E8B2F2416C2A /* LayoutConstraint.swift */,
-				CCA9A2DAA3F37BDB7F0E99483F00CAF7 /* LayoutConstraintItem.swift */,
-				C9B3E14354D51EAB3347811640DD79D7 /* Typealiases.swift */,
-				501A23037A3C01626C6E7C0280CB79C1 /* UILayoutSupport+Extensions.swift */,
-				190A04CB446EB6997D6417AF9F4FAECE /* Support Files */,
+				D4AD9E4FE9A7F4064B966CA8E6FD6521 /* HBChatKeyBoard.podspec */,
+				FB7D566F10A958238A4ACEC7C003CF5E /* LICENSE */,
+				5E23D28928EB5BF4D98842FC05D91FA5 /* README.md */,
 			);
-			name = SnapKit;
-			path = SnapKit;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				54E8A39573C435E12AF56FDBB1374259 /* Development Pods */,
 				B80CED95F06E2423481179AB8676D919 /* Frameworks */,
-				FF2C1B5B4FE48EE6546F8A249996D5E4 /* Pods */,
+				427B270BD76A5EF45313FBF29233B96D /* Pods */,
 				C1CC73CC63CA291949B3E2CD5ADB50B3 /* Products */,
 				2C267FCF76489802966B11EBDECF2176 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		FF2C1B5B4FE48EE6546F8A249996D5E4 /* Pods */ = {
+		D598432AC91D6B14C73230FDDCA6E18B /* HBEmojiView */ = {
 			isa = PBXGroup;
 			children = (
-				48A726BB487A864C52E75D44772EA33A /* HBChatKeyBoard */,
-				CE4C00E4063B73B9FA0467C985B9C29D /* SnapKit */,
+				D51260F311E2CD7F11A05031F2DB74EC /* HBEmojiView.swift */,
+				899F131968B6B91328A92BB9A93DA611 /* HBTextAttachment.swift */,
 			);
-			name = Pods;
+			name = HBEmojiView;
+			path = HBChatKeyBoard/Classes/HBEmojiView;
+			sourceTree = "<group>";
+		};
+		E30FFDD7CFF30076B0BF0F0C15956A86 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA4FF4E71663EC42540FE25987543F34 /* SnapKit.modulemap */,
+				5D03F3C139319EA4D8F5A6B079637C29 /* SnapKit.xcconfig */,
+				A16CBDC9E8348101FB596E1B0D64B3DD /* SnapKit-dummy.m */,
+				3EEF84EA071AE73119F9F78CCB7A8FB5 /* SnapKit-Info.plist */,
+				1A0D1CD10B3EBE5D1172D46A5158D007 /* SnapKit-prefix.pch */,
+				1D310AAB8E50557845B5D7CF84C02F45 /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		F64F26DEDF5F31DDC5DB06B012746920 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				74D235C0E8456DA03B8724F17EA46D9F /* Constraint.swift */,
+				15388F9916461AFADC0B83C0F3896286 /* ConstraintAttributes.swift */,
+				F53136A44C3AF8EA930C8F0C67B926F0 /* ConstraintConfig.swift */,
+				215EB1EB7D34BAE4D61BE35FD37C7B8C /* ConstraintConstantTarget.swift */,
+				A671A026067AF279C0A07DAC5E3D5F56 /* ConstraintDescription.swift */,
+				16DC359A7B04F408D0E8233AE8D87CCB /* ConstraintDSL.swift */,
+				425101B552E11290A01971FB977C9D94 /* ConstraintInsets.swift */,
+				3430CAA9F5F4252B6DD4819000AF4AF3 /* ConstraintInsetTarget.swift */,
+				F1A7AEA6044B2018807C2D766ED9025D /* ConstraintItem.swift */,
+				734D85E58F3C5B8F418EE9B0A943DFB6 /* ConstraintLayoutGuide.swift */,
+				E8B2D75BA44BD7EC2F724E0EDB30F325 /* ConstraintLayoutGuide+Extensions.swift */,
+				218DECB55AE295F271C9D4E2198054FA /* ConstraintLayoutGuideDSL.swift */,
+				02E6A0E89915574C7D9DBC896D4A76A7 /* ConstraintLayoutSupport.swift */,
+				A66AA66BCD7583FB9A6324FB89D6C530 /* ConstraintLayoutSupportDSL.swift */,
+				8959EFF4ED2C473620C5934AF38D555E /* ConstraintMaker.swift */,
+				696D0C15939397708F7A906796D4C407 /* ConstraintMakerEditable.swift */,
+				9AC281399063A5E62CECFBBD097D01D2 /* ConstraintMakerExtendable.swift */,
+				8C5926F04B724FCFC18EB3D230A13C07 /* ConstraintMakerFinalizable.swift */,
+				42EC8E050E3BE6E46D7C010378F29A56 /* ConstraintMakerPriortizable.swift */,
+				14ABC1FF8C8F648909E0AC7911172933 /* ConstraintMakerRelatable.swift */,
+				5FC6236D47CB2BA34B4F1F344E985DF2 /* ConstraintMultiplierTarget.swift */,
+				90D210A13529B69371A362230828E459 /* ConstraintOffsetTarget.swift */,
+				BC9F88505958E8DD77D99588F0471563 /* ConstraintPriority.swift */,
+				0A754244D675324E814E05CF1E281645 /* ConstraintPriorityTarget.swift */,
+				65ECFB28DDFA00A26C7DEFA47C0B957D /* ConstraintRelatableTarget.swift */,
+				26FF6A5B7704FACC7F9307D312A7EF61 /* ConstraintRelation.swift */,
+				987D9011F616F5690D09CFC59CAC79EC /* ConstraintView.swift */,
+				74D1F6250B9560C48D2982462F5197C7 /* ConstraintView+Extensions.swift */,
+				718501E66EB9C33CE1F87D62CC2CC57D /* ConstraintViewDSL.swift */,
+				D0F94C7C263067A0535BA4C068F5BA96 /* Debugging.swift */,
+				6FDC6561D7E59F96048734F4A9C87399 /* LayoutConstraint.swift */,
+				8D6693C457C9655D1E49B7B8027767CF /* LayoutConstraintItem.swift */,
+				69940BF178423537E010EA0A592D164D /* Typealiases.swift */,
+				38C0BEE93AF56739E9FF303A7ECA5D04 /* UILayoutSupport+Extensions.swift */,
+				E30FFDD7CFF30076B0BF0F0C15956A86 /* Support Files */,
+			);
+			name = SnapKit;
+			path = SnapKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -936,7 +533,7 @@
 			buildPhases = (
 				920C9DA975DCDD537E94D3F94030D9B7 /* Sources */,
 				76E269C15C7C85E60DFFEB77A0503B4B /* Frameworks */,
-				B74EDD7B2513DE4A965AA879744138F1 /* Resources */,
+				E79F25A9CC2DB807A670C907B027B868 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -952,7 +549,7 @@
 			buildConfigurationList = 44C69CF1CC309DFAC8B193B1FD7CE0CD /* Build configuration list for PBXNativeTarget "HBChatKeyBoard" */;
 			buildPhases = (
 				0BBD28785CB654A446EC3500C2DDE78E /* Headers */,
-				1229583CD7F65CF41D572DC6D76D903F /* Sources */,
+				9F91CD765F22111CF2061460ED5ED118 /* Sources */,
 				762A3EC9434C4DFF8D09E40885E534C6 /* Frameworks */,
 				E0114DBBD3F99C5D7E0B4D9695C05942 /* Resources */,
 			);
@@ -1050,164 +647,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B74EDD7B2513DE4A965AA879744138F1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4BCDB3F1F62901F2236950A519119F03 /* 001.png in Resources */,
-				176E398599EA9FE34E3C753F3DE3AE11 /* 002.png in Resources */,
-				177093044E7CD100DFB742D2C052D151 /* 003.png in Resources */,
-				6F5A764E0B5F3D47751D94C05C50A97B /* 004.png in Resources */,
-				CA578824D809E4ABB231D722E0D82FD7 /* 005.png in Resources */,
-				7599F55705907A7FECA2639ACEDE0850 /* 006.png in Resources */,
-				B64322E35B308EF3E1216D15D6D63DAF /* 007.png in Resources */,
-				58E99966552D2723CAD7AE6E87680F2C /* 008.png in Resources */,
-				CCA3F29679D83E8E58DEBEA5B3D53022 /* 009.png in Resources */,
-				879E397AABAB70B596B15D6D07A24932 /* 010.png in Resources */,
-				D3ED90730ACACAA07A7B7E1ECA5098F8 /* 011.png in Resources */,
-				47B2C6CDE157BF3EF73C4666DD817127 /* 012.png in Resources */,
-				1474C38EF337129C07E45713266CCA20 /* 013.png in Resources */,
-				50EDADB173AA285B54C1F82AA17F9416 /* 014.png in Resources */,
-				03488F818EB91136873BB7F339252EEB /* 015.png in Resources */,
-				77E626EC4B4E376D9772566345BC3A98 /* 016.png in Resources */,
-				FFF17929040725E16839F7B3CED73619 /* 017.png in Resources */,
-				EDE677AD47E78B4E050BE3DE765DB8D4 /* 018.png in Resources */,
-				0268C8C614332289BBCCFE8C5275C8B1 /* 019.png in Resources */,
-				1D6FB3509404B4156FDCD624D50FD80D /* 020.png in Resources */,
-				61FCA08534AC1EC93CA7E0A160E54BC3 /* 021.png in Resources */,
-				E5105D60F403BB74F93375388B56563C /* 022.png in Resources */,
-				43188099F2AF9B18A3A634F131A2BAEA /* 023.png in Resources */,
-				2034D81A25CA10F7A5737B9F8ED96C8B /* 024.png in Resources */,
-				0822A0C063E1168A1C419D87A97AD60C /* 025.png in Resources */,
-				ED3D6E4DCF632819DB0C4CD57DDDE888 /* 026.png in Resources */,
-				AF65D8717BD8E325D3AE8B97F666A35F /* 027.png in Resources */,
-				DC0D6BF3EEF4B11A7E86C5AC0F674AD1 /* 028.png in Resources */,
-				9E9E214AD31C0AD013C159C842B216A6 /* 029.png in Resources */,
-				3200436D67171D696DBC6A64CBDAB818 /* 030.png in Resources */,
-				B0E17D5D6167BE93416627394BE28706 /* 031.png in Resources */,
-				7123DC746A3D66771E6D60F1B5A9DC95 /* 032.png in Resources */,
-				06E0F6B54F45E720C2065F9DADF9D22C /* 033.png in Resources */,
-				3374326555E766369CAC8D2D137EAC8F /* 034.png in Resources */,
-				0FB059FA7C933A39EF74558599258DF4 /* 035.png in Resources */,
-				AF75BA15BB0F23CB479E8A645461F4C2 /* 036.png in Resources */,
-				78951AF12985395FF083C3FD5700DA56 /* 037.png in Resources */,
-				808FF4B272BFBD42F91C2A5514E104C9 /* 038.png in Resources */,
-				E8F2BE2C8FFDC93A30EFFE89E43CD3F6 /* 039.png in Resources */,
-				D49993AEC4B50FD078686F4DE2E0AAED /* 040.png in Resources */,
-				2366A1AC1C3E66E857C456EEE6950533 /* 041.png in Resources */,
-				5BE13A7674095603CE5C4441AC3C345A /* 042.png in Resources */,
-				7ADDBA1C0668817A955511630EE132F7 /* 043.png in Resources */,
-				DCE048C2310E0D6B415AA3AF6A6C6801 /* 044.png in Resources */,
-				2E77C5645800A3E3AF512109CA6F0EF3 /* 045.png in Resources */,
-				75E17E609B9B00360AAC64885BC13070 /* 046.png in Resources */,
-				87904E977675F2DF7593074A2536FACD /* 047.png in Resources */,
-				6F2201C994AA735695EC900C136CD5E2 /* 048.png in Resources */,
-				CA3733578BE89936903E04D71377F5D0 /* 049.png in Resources */,
-				AE4799440F2F122BAC8B5D659752E0A1 /* 050.png in Resources */,
-				1CA49DB8A26336A13674B9EC09C95868 /* 051.png in Resources */,
-				60396BBDBB1B9A603E16F06A2C54DAE4 /* 052.png in Resources */,
-				4C63576DC61C3B3BF375AFA0D1E38CA0 /* 053.png in Resources */,
-				715833BB920984D95DF992693296EF5A /* 054.png in Resources */,
-				5F732E090E9BEBEECEAB1416B373FEC5 /* 055.png in Resources */,
-				0AEBAADB9C0E006673DDACFD90E50C29 /* 056.png in Resources */,
-				D1CCE2459E0E744CBFB10CA6ECB9AF4E /* 057.png in Resources */,
-				9905B443AFAE6B032EF87F73D1E036E8 /* 058.png in Resources */,
-				FB967A605CFB439D0683BA223215CE1E /* 059.png in Resources */,
-				D5F52C3D12BDBCECE494F69066BE9DA6 /* 060.png in Resources */,
-				9AA0676D3633598069193BDB2E061ECC /* 061.png in Resources */,
-				62CC749F575E456762C93FACCE54E4CF /* 062.png in Resources */,
-				4CF864E6E1C0080D320E03B46167591A /* 063.png in Resources */,
-				8FCC1089F12084569C4B4316B13AC1F9 /* 064.png in Resources */,
-				048C241D2D1E43FF2D8AE061E1B85209 /* 065.png in Resources */,
-				919870AD2B7C11E00A2F51A2C182EE28 /* 066.png in Resources */,
-				47815ADF2BCD87FFDE5DD8A2F3BA852F /* 067.png in Resources */,
-				E89D3197C56DD7D3253EA8CE1928D2AC /* 068.png in Resources */,
-				3D46C6276F2F1F006CAC413A6FEB28A7 /* 069.png in Resources */,
-				3AE8D1FC9CBB7E817D2996180CAB20FE /* 070.png in Resources */,
-				9DAD61CA1445D0371E3A031518253694 /* 071.png in Resources */,
-				D350697C831D22192203EA240A4676F3 /* 072.png in Resources */,
-				7F06C6EB6C4918BABCE1A9B4C06F4121 /* 073.png in Resources */,
-				32B553EE32FA5FB016FE20EFA7895785 /* 074.png in Resources */,
-				E2563B47AAEE0274FEA37640D15F9F52 /* 075.png in Resources */,
-				8FCAF3A52FDFF3CE9833CEA1DA26F20D /* 076.png in Resources */,
-				C88D2FD400B5E94AABAF5FC8A174510F /* 077.png in Resources */,
-				2B5525FAC56CCAC151C5EC7A04127BD5 /* 078.png in Resources */,
-				7303B4CAC531053B9888FB76DFA04D89 /* 079.png in Resources */,
-				602D857F7B31D186CBE1B5FB195BC253 /* 080.png in Resources */,
-				9EE283BD98B5D07D91BA4D4C0B83C9D1 /* 081.png in Resources */,
-				FEE1BE6C51587A6AAB4C4AAB5A76485A /* 082.png in Resources */,
-				9A64A1A694CFB051560AAE6F47A16602 /* 083.png in Resources */,
-				0C703208ED7152547372996B21D5106D /* 084.png in Resources */,
-				A0BC4F271945E845CF1DD6E39848E04F /* 085.png in Resources */,
-				7CC1C3CED776290B040D9CA6A6CC52E8 /* 086.png in Resources */,
-				94749C87550F0712067FF45701216FCB /* 087.png in Resources */,
-				DC1B858D0E03B35D52450B4EAA98CD88 /* 088.png in Resources */,
-				E8B80336BB00391AC96A0D887996FB8A /* 089.png in Resources */,
-				CD7F79FA54194BD8A3AED4C0C34A6B4F /* 090.png in Resources */,
-				87C5BD3CAA4D2237B4A3E52D7FDD2F45 /* 091.png in Resources */,
-				558AC12F3B9F3C6DAA1D10ABA554D122 /* 092.png in Resources */,
-				77B37AC20D928E285A44C638579B63A3 /* 093.png in Resources */,
-				2875908EDBCE9BB9BA5D02560144576D /* 094.png in Resources */,
-				CD48BF62819E3ED26EF52569B2254CFF /* 095.png in Resources */,
-				3790EEEC94979956C9D3E54F539A7E57 /* 096.png in Resources */,
-				378AA3067C5CFC10C1B27326C0554D8F /* 097.png in Resources */,
-				2D186AFFC71B84ABEC09A36BEDB21F64 /* 098.png in Resources */,
-				3AA22AB25E8CA8E775966DCC0B4CBDD7 /* 099.png in Resources */,
-				EDEDBF330BD5E480EEEDA29FC1CEA145 /* 100.png in Resources */,
-				7386A6EF2E3E263FDBF911185E0F88B7 /* 101.png in Resources */,
-				1C0C1E0DEE3CD0638EB9E11DF34E6A9F /* 102.png in Resources */,
-				04833AC913E7FFBE5058BFEA00881567 /* 103.png in Resources */,
-				ECCF9BE03D926B25D62FD3432EADB6D9 /* 104.png in Resources */,
-				0F5ADA9C05A68A3AB854DF1D5FEB8147 /* 105.png in Resources */,
-				A4D60C4FA7A95FBB7D25C42B8A0D8B22 /* 106.png in Resources */,
-				C109C819258FE2AE82971436A082BD62 /* 107.png in Resources */,
-				5394BD5D6820272F046AA5C755D64655 /* 108.png in Resources */,
-				A2978CBD80CAB5C698FC1E8722659A51 /* 109.png in Resources */,
-				0BD0D1A632D1565AA691DB02A15F66AB /* 110.png in Resources */,
-				53EECDC8D2DE77E9C2B0B7A44A75FDC1 /* 111.png in Resources */,
-				D997EE382DA94DB29820884A88FB9605 /* 112.png in Resources */,
-				456D4E9B4B141438E633B30D3754214C /* 113.png in Resources */,
-				20AF726146BFCEF74013323E6A30BE40 /* 114.png in Resources */,
-				59D198039633040599983F4CC2000E34 /* 115.png in Resources */,
-				FB233174B6465753EFB6971451D53CBC /* 116.png in Resources */,
-				CC14E5C0C7990D5C3BDC23DB3F293C50 /* 117.png in Resources */,
-				D0431BB125A3561784B865044D1B9AD6 /* 118.png in Resources */,
-				7B3CA7883834B927CE1EC3D558357C7D /* 119.png in Resources */,
-				A6DF8F09D70DEC9263BB203AF59E21FF /* 120.png in Resources */,
-				0D28CE7675739B90C5EF4557BC212CC9 /* 121.png in Resources */,
-				F6903206362C5778145BC5A64BB142C7 /* 122.png in Resources */,
-				54F46190C3A90D07F39AF90AE1EF0E99 /* 123.png in Resources */,
-				D00103BA815375840626833473CE9EC3 /* 124.png in Resources */,
-				FC6EA39D90A2F13DC95535831B86FF45 /* 125.png in Resources */,
-				AA68F07E6755FCDF254755D190D12DEC /* 126.png in Resources */,
-				C3C14246B031B8BF09CF66A6EF440B9F /* 127.png in Resources */,
-				7304309374FCA8E2B0F965397FFF1326 /* 128.png in Resources */,
-				0D98B382E6FBB290FCE74C70CED74072 /* 129.png in Resources */,
-				18F2AD8A655C4F7DF684699C41AA00BB /* 130.png in Resources */,
-				031C3E4EAE3A6E6C46F9E7D55B6530CA /* 131.png in Resources */,
-				4C2AF05532277DC44137F330324D107F /* 132.png in Resources */,
-				B58160A75D2C474D3BAA91E04D2F281B /* 133.png in Resources */,
-				9AB8FC8DBD42437883FFD6AF4582C1AA /* 134.png in Resources */,
-				78BC520A8B3BC1349221B20BA8BB5661 /* 135.png in Resources */,
-				9C39A66B066274BCD74DC4CB0ABF023E /* 136.png in Resources */,
-				4193E086FBC68B88616AEBDE5DCD595E /* 137.png in Resources */,
-				5A13F0E1233194E52AEDFEDA208C5B13 /* 138.png in Resources */,
-				F64546AD20DAA759AB11EC92A865DFF2 /* 139.png in Resources */,
-				FCECBAE6B18BC263D595E17237C73048 /* 140.png in Resources */,
-				4F07D63FEE6659C1177C0C273F640661 /* bar_add.png in Resources */,
-				1045956BE39889599719CF727162F843 /* bar_emoj.png in Resources */,
-				AA66F099B8BB5CA50DA42D7D3A38D642 /* bar_keyboard.png in Resources */,
-				4E95B97E8ED6BC338E12BFA13C87AC44 /* bar_mirco.png in Resources */,
-				D9570CC32C94CBFBE9E3FE70C1234F92 /* delete.png in Resources */,
-				9EAAE91F1AFA9BF6019B05EF1418E5AE /* HBEmojiFile.plist in Resources */,
-				DFEC31E50202314FC9DFE439AE94D74F /* menu_camera.png in Resources */,
-				8A098A349B6033E2389E5877DFCE23C1 /* menu_gift.png in Resources */,
-				720EF1F69C6B0BEB33E56F969EACBD3F /* menu_image.png in Resources */,
-				4F14B4B74EFAD8DB77E491BC012FEA72 /* menu_location.png in Resources */,
-				AD123AB3EC97E44F5218EEDFFB6DC75F /* menu_video.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C9C4401093FEF995C9D0293CBEA1CAEC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1223,23 +662,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		1229583CD7F65CF41D572DC6D76D903F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		E79F25A9CC2DB807A670C907B027B868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9FF033B337DA292CC21CCF3DF59F21B /* HBChatKeyBoard-dummy.m in Sources */,
-				2FD7E620E7A7456A9EC2F5EC7B7F0E1F /* HBChatKeyBoardView.swift in Sources */,
-				991F9B276309150BF9C8CB19283024B8 /* HBChatTextView.swift in Sources */,
-				510572BA8102AFFF7AAE8282E5597C5D /* HBEmojiView.swift in Sources */,
-				B0212336A276EC867F33E0E4BAB29D57 /* HBMoreMenuView.swift in Sources */,
-				03B203F3B4A1B8BAE1E28A6211CA7641 /* HBRecordTool.swift in Sources */,
-				55413C89C3B87DBD637641E379862CDE /* HBTextAttachment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		171138CDF7FC116E7CE20CC4E2C58D1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1294,6 +726,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F91CD765F22111CF2061460ED5ED118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD46F876FAC2E8BCEDC1F882090EBA5 /* HBChatKeyBoard-dummy.m in Sources */,
+				FE7CD074810A79E55EDB5907C890FFA4 /* HBChatKeyBoardView.swift in Sources */,
+				81E3F6000BDF59BB4740E976CEA16669 /* HBChatTextView.swift in Sources */,
+				CAA6BB5A1F68E56EC0178A294515ABFA /* HBEmojiView.swift in Sources */,
+				55593555C0B5596D9755F6405B7B2B76 /* HBMoreMenuView.swift in Sources */,
+				7A7F909D80EBD78319565D609C17CDB0 /* HBRecordTool.swift in Sources */,
+				42617EA89E0B7D129040FFBB1167DE94 /* HBTextAttachment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1436,7 +882,7 @@
 		};
 		1740156ADECD4CCECB7148801A637910 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDE7FF03F9DA7B7CE41C87E706950CBA /* HBChatKeyBoard.xcconfig */;
+			baseConfigurationReference = D758E07381D60CF5B22B252DDBE585A0 /* HBChatKeyBoard.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HBChatKeyBoard";
@@ -1550,7 +996,7 @@
 		};
 		49A4F0DFF8C2397DB87CFCA24E8E2F8C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0E1EA87A818AF18E545503A69C9A2A9 /* SnapKit.xcconfig */;
+			baseConfigurationReference = 5D03F3C139319EA4D8F5A6B079637C29 /* SnapKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1582,7 +1028,7 @@
 		};
 		52BFF3F4E9AC9222439B807ACADC2ACE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0E1EA87A818AF18E545503A69C9A2A9 /* SnapKit.xcconfig */;
+			baseConfigurationReference = 5D03F3C139319EA4D8F5A6B079637C29 /* SnapKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1646,7 +1092,7 @@
 		};
 		9E7E2D23AAF52AA331D0E12A5B65E757 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDE7FF03F9DA7B7CE41C87E706950CBA /* HBChatKeyBoard.xcconfig */;
+			baseConfigurationReference = D758E07381D60CF5B22B252DDBE585A0 /* HBChatKeyBoard.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1711,7 +1157,7 @@
 		};
 		E718E49F2B22F76FE1AD527BE59A9FEA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDE7FF03F9DA7B7CE41C87E706950CBA /* HBChatKeyBoard.xcconfig */;
+			baseConfigurationReference = D758E07381D60CF5B22B252DDBE585A0 /* HBChatKeyBoard.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HBChatKeyBoard";
@@ -1727,7 +1173,7 @@
 		};
 		EC89C5603503AAEB7C4F74786C35923D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDE7FF03F9DA7B7CE41C87E706950CBA /* HBChatKeyBoard.xcconfig */;
+			baseConfigurationReference = D758E07381D60CF5B22B252DDBE585A0 /* HBChatKeyBoard.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

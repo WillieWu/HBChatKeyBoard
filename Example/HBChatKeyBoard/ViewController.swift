@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
+    
         chatView.backgroundColor = UIColor.gray
         chatView.keyBoardViewHeightChange = { [weak self] (height) in
             guard let `self` = self else { return }

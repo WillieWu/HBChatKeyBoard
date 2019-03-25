@@ -354,49 +354,49 @@ extension HBChatKeyBoardView {
     fileprivate func p_loadMoreItem() {
         let cell1 = HBMoreMenuItem()
         cell1.title = "cell1"
-        cell1.imageName = "100"
+        cell1.imageName = "140111"
         cell1.itemAction = {
             print("cell1")
         }
         let cell2 = HBMoreMenuItem()
         cell2.title = "cell2"
-        cell2.imageName = "101"
+        cell2.imageName = "140111"
         cell2.itemAction = {
             print("cell2")
         }
         let cell3 = HBMoreMenuItem()
         cell3.title = "cell3"
-        cell3.imageName = "102"
+        cell3.imageName = "140111"
         cell3.itemAction = {
             print("cell3")
         }
         let cell4 = HBMoreMenuItem()
         cell4.title = "cell4"
-        cell4.imageName = "103"
+        cell4.imageName = "140111"
         cell4.itemAction = {
             print("cell4")
         }
         let cell5 = HBMoreMenuItem()
         cell5.title = "cell5"
-        cell5.imageName = "104"
+        cell5.imageName = "140111"
         cell5.itemAction = {
             print("cell5")
         }
         let cell6 = HBMoreMenuItem()
         cell6.title = "cell6"
-        cell6.imageName = "105"
+        cell6.imageName = "140111"
         cell6.itemAction = {
             print("cell6")
         }
         let cell7 = HBMoreMenuItem()
         cell7.title = "cell7"
-        cell7.imageName = "106"
+        cell7.imageName = "140111"
         cell7.itemAction = {
             print("cell7")
         }
         let cell8 = HBMoreMenuItem()
         cell8.title = "cell8"
-        cell8.imageName = "107"
+        cell8.imageName = "140111"
         cell8.itemAction = {
             print("cell8")
         }
@@ -405,19 +405,19 @@ extension HBChatKeyBoardView {
         
         let cell9 = HBMoreMenuItem()
         cell9.title = "cell9"
-        cell9.imageName = "108"
+        cell9.imageName = "140111"
         cell9.itemAction = {
             print("cell9")
         }
         let cell10 = HBMoreMenuItem()
         cell10.title = "cell10"
-        cell10.imageName = "109"
+        cell10.imageName = "140111"
         cell10.itemAction = {
             print("cell10")
         }
         let cell11 = HBMoreMenuItem()
         cell11.title = "cell11"
-        cell11.imageName = "110"
+        cell11.imageName = "140111"
         cell11.itemAction = {
             print("cell11")
         }

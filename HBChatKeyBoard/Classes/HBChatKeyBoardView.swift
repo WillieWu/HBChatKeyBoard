@@ -322,7 +322,8 @@ public class HBBundle: NSObject {
 extension HBChatKeyBoardView {
 
     fileprivate func p_clipArrayWithSection() {
-        let currentBundle_plistPath = HBBundle.path(forFile: "HBEmojiFile.plist")
+//        let currentBundle_plistPath = HBBundle.path(forFile: "HBEmojiFile.plist")
+        let currentBundle_plistPath = Bundle.main.path(forResource: "HBEmojiFile.plist", ofType: nil)
         let tempItems = NSArray(contentsOfFile: currentBundle_plistPath ?? "") as! [NSDictionary]
         
         var allItems: [HBEmojiItemsModel] = [HBEmojiItemsModel]()
