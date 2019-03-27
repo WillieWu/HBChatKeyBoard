@@ -6,6 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/HBChatKeyBoard.svg?style=flat)](https://cocoapods.org/pods/HBChatKeyBoard)
 
 ## 安装
+![效果图](http://www.ml520.cn/json_test.gif)
 ```ruby
 pod 'HBChatKeyBoard'
 ```
