@@ -8,9 +8,9 @@
 
 import UIKit
 
-typealias HBChatTextHeightChangeBlock = () -> Void
+public typealias HBChatTextHeightChangeBlock = () -> Void
 
-class HBChatTextView: UITextView {
+public class HBChatTextView: UITextView {
     
     public var maxLine: Int = 4
     public var placeholderText: String = "写点什么……" {
@@ -65,12 +65,12 @@ class HBChatTextView: UITextView {
         self.addObserver(self, forKeyPath: "attributedText", options: [.new, .old], context: nil)
     }
 
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
         self.placeholderView.frame = self.bounds
     }
     
-    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+    override public func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         if keyPath! == "attributedText" {
             self.p_textViewTextChange()
         } else {

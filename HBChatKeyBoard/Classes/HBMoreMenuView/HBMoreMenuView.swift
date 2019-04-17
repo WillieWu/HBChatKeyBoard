@@ -16,14 +16,14 @@ fileprivate let kHBMoreMenuViewItemSize: CGSize = CGSize(width: 55, height: 65)
 fileprivate let kHBMoreMenuViewRowPadding: CGFloat = (kHBMoreMenuViewHeight - kHBMoreMenuViewPageControlHeight - 2 * kHBMoreMenuViewItemSize.height - 2 * kHBMoreMenuViewEdgePadding)/(2 - 1)
 fileprivate let kHBMoreMenuViewColomPadding: CGFloat = (UIScreen.main.bounds.size.width - 4 * kHBMoreMenuViewItemSize.width - 2 * kHBMoreMenuViewEdgePadding - 2 * 0.001)/(4 - 1)
 
-class HBMoreMenuItem: NSObject {
+public class HBMoreMenuItem: NSObject {
     var title: String = ""
     var imageName: String = ""
     var isPlaceHold: Bool = false
     var itemAction: (() -> ())?
 }
 
-class HBMoreMenuView: UIView {
+public class HBMoreMenuView: UIView {
     
     /// 数组中最多8个Item，排列固定是2x4的布局
     var allItems: [[HBMoreMenuItem]] = [[HBMoreMenuItem]]() {
@@ -95,7 +95,7 @@ class HBMoreMenuView: UIView {
 }
 
 extension HBMoreMenuView: UICollectionViewDelegate, UICollectionViewDataSource {
-    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+    private func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         let indexPath = self.menuCollectionView.indexPathForItem(at: CGPoint(x: scrollView.contentOffset.x, y: 0))!
         reloadPage(indexPath)
     }

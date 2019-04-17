@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class HBRecordTool: NSObject {
+public class HBRecordTool: NSObject {
     
     public static let `default` = HBRecordTool()
     public var maxRecordSeconds: TimeInterval = 60
@@ -205,13 +205,13 @@ extension HBRecordTool {
 }
 
 extension HBRecordTool: AVAudioRecorderDelegate {
-    func audioRecorderDidFinishRecording(_ recorder: AVAudioRecorder, successfully flag: Bool) {
+    private func audioRecorderDidFinishRecording(_ recorder: AVAudioRecorder, successfully flag: Bool) {
         excute {
             guard self.audioURL != nil else { return }
             self.maxSecondComplation?(self.audioURL!, maxRecordSeconds)
         }
     }
-    func audioRecorderEncodeErrorDidOccur(_ recorder: AVAudioRecorder, error: Error?) {
+    private func audioRecorderEncodeErrorDidOccur(_ recorder: AVAudioRecorder, error: Error?) {
         print("录音错误：\(error.debugDescription)")
     }
 
