@@ -17,10 +17,10 @@ fileprivate let kHBMoreMenuViewRowPadding: CGFloat = (kHBMoreMenuViewHeight - kH
 fileprivate let kHBMoreMenuViewColomPadding: CGFloat = (UIScreen.main.bounds.size.width - 4 * kHBMoreMenuViewItemSize.width - 2 * kHBMoreMenuViewEdgePadding - 2 * 0.001)/(4 - 1)
 
 public class HBMoreMenuItem: NSObject {
-    var title: String = ""
-    var imageName: String = ""
-    var isPlaceHold: Bool = false
-    var itemAction: (() -> ())?
+    public var title: String = ""
+    public var imageName: String = ""
+    public var isPlaceHold: Bool = false
+    public var itemAction: (() -> ())?
 }
 
 public class HBMoreMenuView: UIView {
