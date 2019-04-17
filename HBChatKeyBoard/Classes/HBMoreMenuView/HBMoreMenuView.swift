@@ -26,7 +26,7 @@ public class HBMoreMenuItem: NSObject {
 public class HBMoreMenuView: UIView {
     
     /// 数组中最多8个Item，排列固定是2x4的布局
-    var allItems: [[HBMoreMenuItem]] = [[HBMoreMenuItem]]() {
+    public var allItems: [[HBMoreMenuItem]] = [[HBMoreMenuItem]]() {
         didSet {
             self.menuCollectionView.reloadData()
             self.menuCollectionView.scrollToItem(at: IndexPath(item: 0, section: 0), at: .centeredHorizontally, animated: true)
