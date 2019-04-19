@@ -1,8 +1,8 @@
 use_frameworks!
 
 target 'HBChatKeyBoard_Example' do
-#    pod 'HBChatKeyBoard', :path => '../'
-    pod 'HBChatKeyBoard'
+    pod 'HBChatKeyBoard', :path => '../'
+#    pod 'HBChatKeyBoard'
   target 'HBChatKeyBoard_Tests' do
     inherit! :search_paths
 

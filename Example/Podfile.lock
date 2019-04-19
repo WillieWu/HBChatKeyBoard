@@ -1,20 +1,23 @@
 PODS:
-  - HBChatKeyBoard (1.0.2):
+  - HBChatKeyBoard (1.0.5):
     - SnapKit (~> 4.0.0)
   - SnapKit (4.0.1)
 
 DEPENDENCIES:
-  - HBChatKeyBoard
+  - HBChatKeyBoard (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - HBChatKeyBoard
     - SnapKit
 
+EXTERNAL SOURCES:
+  HBChatKeyBoard:
+    :path: "../"
+
 SPEC CHECKSUMS:
-  HBChatKeyBoard: d5c3f27f2213ae8e04d1642947e560205f109c5c
+  HBChatKeyBoard: c17dc4670ddd428784dfee10313885c1665a7cfe
   SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
 
-PODFILE CHECKSUM: 79f92b0bb01c4a96792c80c1e6dee0b03c4e3c75
+PODFILE CHECKSUM: 245dd25d65a2103e23565ee7707e747c0b45cba5
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.5.2

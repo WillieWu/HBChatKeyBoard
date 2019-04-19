@@ -894,7 +894,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HBChatKeyBoard_Example/Pods-HBChatKeyBoard_Example-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-HBChatKeyBoard_Example/Pods-HBChatKeyBoard_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HBChatKeyBoard/HBChatKeyBoard.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
@@ -905,7 +905,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HBChatKeyBoard_Example/Pods-HBChatKeyBoard_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HBChatKeyBoard_Example/Pods-HBChatKeyBoard_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D33AB09D737FD07AC0D3741F /* [CP] Check Pods Manifest.lock */ = {
@@ -1102,6 +1102,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/HBChatKeyBoard/Classes/HBRecordTool",
 				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = HBChatKeyBoard/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1123,6 +1124,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/HBChatKeyBoard/Classes/HBRecordTool",
 				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = HBChatKeyBoard/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
