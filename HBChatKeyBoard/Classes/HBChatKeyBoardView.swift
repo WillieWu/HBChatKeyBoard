@@ -280,10 +280,8 @@ extension UIImage {
             fixName.append(".png")
         }
         let mainImagePath = Bundle.main.path(forResource: fixName, ofType: nil)
-        guard mainImagePath == nil else {
-            return mainImagePath
-        }
-        return HBBundle.path(forFile: fixName)
+        assert(mainImagePath != nil, "Image find: \(fixName) not find")
+        return mainImagePath
     }
     
     class func hb_image(fromColor color: UIColor) -> UIImage {
@@ -304,6 +302,7 @@ public class HBBundle: NSObject {
     
     public override init() {
         super.init()
+        //MARK: 如果resourceBundles 有资源的话需要用此bundle取
         let currentBundlePath = Bundle(for: HBChatKeyBoardView.self).path(forResource: "HBChatKeyBoard", ofType: "bundle")
         assert(currentBundlePath != nil, "HBChatKeyBoard.bundle not find")
         self.currentBundle = Bundle(path: currentBundlePath!)

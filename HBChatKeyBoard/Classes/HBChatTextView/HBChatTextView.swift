@@ -56,10 +56,6 @@ public class HBChatTextView: UITextView {
         self.returnKeyType = .send
         self.delegate = self as UITextViewDelegate
         self.addSubview(self.placeholderView)
-        //TODO: @whb 设置字行距
-//        let lineStyle = NSMutableParagraphStyle()
-//        lineStyle.lineSpacing = 15
-//        self.typingAttributes = [NSAttributedString.Key.paragraphStyle: lineStyle.copy()]
         
         NotificationCenter.default.addObserver(self, selector: #selector(HBChatTextView.p_textViewTextChange), name: NSNotification.Name.UITextViewTextDidChange, object: nil)
         self.addObserver(self, forKeyPath: "attributedText", options: [.new, .old], context: nil)

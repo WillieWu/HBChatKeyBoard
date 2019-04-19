@@ -240,9 +240,7 @@ extension HBEmojiView: UICollectionViewDelegate, UICollectionViewDataSource {
         return cell
     }
     public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        guard collectionView == self.itemCollectionView else {
-            return
-        }
+        guard collectionView == self.itemCollectionView else { return }
         let selectIndexPath = IndexPath(item: 0, section: indexPath.item)
         self.emojisCollectionView.scrollToItem(at: selectIndexPath, at: .centeredHorizontally, animated: false)
         reloadPage(selectIndexPath)

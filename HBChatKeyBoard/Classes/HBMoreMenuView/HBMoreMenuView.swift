@@ -11,10 +11,7 @@ import UIKit
 fileprivate let kHBMoreMenuViewHeight: CGFloat = 195
 fileprivate let kHBMoreMenuViewPageControlHeight: CGFloat = 20
 fileprivate let kHBMoreMenuViewEdgePadding: CGFloat = 15
-fileprivate let kHBMoreMenuViewItemSize: CGSize = CGSize(width: 55, height: 65)
-
-fileprivate let kHBMoreMenuViewRowPadding: CGFloat = (kHBMoreMenuViewHeight - kHBMoreMenuViewPageControlHeight - 2 * kHBMoreMenuViewItemSize.height - 2 * kHBMoreMenuViewEdgePadding)/(2 - 1)
-fileprivate let kHBMoreMenuViewColomPadding: CGFloat = (UIScreen.main.bounds.size.width - 4 * kHBMoreMenuViewItemSize.width - 2 * kHBMoreMenuViewEdgePadding - 2 * 0.001)/(4 - 1)
+fileprivate let kHBMoreMenuViewInsert: CGFloat = 5
 
 public class HBMoreMenuItem: NSObject {
     public var title: String = ""
@@ -132,7 +129,7 @@ class HBMoreCollectionCell: UICollectionViewCell {
         tl.isScrollEnabled = false
         return tl
     }()
-    
+    fileprivate var itemSize: CGSize = CGSize.zero
     var menus: [HBMoreMenuItem] = [HBMoreMenuItem]() {
         didSet {
             self.collectionView.reloadData()
@@ -146,6 +143,10 @@ class HBMoreCollectionCell: UICollectionViewCell {
         self.collectionView.snp.makeConstraints { (make) in
             make.edges.equalTo(self)
         }
+        
+        let itemWidth = (UIScreen.main.bounds.size.width - 2 * kHBMoreMenuViewEdgePadding - 2 * 0.001 - 3 * kHBMoreMenuViewInsert)/4
+        let itemHeight = (kHBMoreMenuViewHeight - kHBMoreMenuViewPageControlHeight - kHBMoreMenuViewEdgePadding - kHBMoreMenuViewInsert)/2
+        self.itemSize = CGSize(width: itemWidth, height: itemHeight)
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -171,19 +172,19 @@ extension HBMoreCollectionCell: UICollectionViewDelegate, UICollectionViewDataSo
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        return kHBMoreMenuViewRowPadding
+        return kHBMoreMenuViewInsert
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
-        return kHBMoreMenuViewColomPadding
+        return kHBMoreMenuViewInsert
     }
-    
+
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        return UIEdgeInsets(top: kHBMoreMenuViewEdgePadding, left: kHBMoreMenuViewEdgePadding, bottom: kHBMoreMenuViewEdgePadding, right: kHBMoreMenuViewEdgePadding)
+        return UIEdgeInsets(top: kHBMoreMenuViewEdgePadding, left: kHBMoreMenuViewEdgePadding, bottom: 0, right: kHBMoreMenuViewEdgePadding)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return kHBMoreMenuViewItemSize
+        return self.itemSize
     }
 }
 
@@ -199,6 +200,7 @@ class HBMenuCell: UICollectionViewCell {
         let tl = UILabel()
         tl.textColor = UIColor.lightGray
         tl.textAlignment = .center
+        tl.font = UIFont.systemFont(ofSize: 14)
         return tl
     }()
     
